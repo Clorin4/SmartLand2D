@@ -56,8 +56,9 @@ public class PlayerAnimatorController : MonoBehaviour
 
     public void StartVictoryAnimation()
     {
-        animator.SetBool("Ganador", true);
+        StartCoroutine(Victory());
     }
+
 
     public void StartLoseAnimation()
     {
@@ -104,6 +105,13 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         animator.SetBool("Corriendo", false);
         yield return new WaitForSeconds(0);
+    }
+
+    IEnumerator Victory()
+    {
+        animator.SetBool("Ganador", true);
+        yield return new WaitForSeconds(2.5f);
+        animator.SetBool("Ganador", false);
     }
 
 }
