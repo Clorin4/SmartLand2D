@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a7238369341dd4ba31125321f1ea8b, type: 3}
+  m_Name: Insane
+  m_EditorClassIdentifier: 
+  difficultyLevel: 3
+  phraseTime: 18
+  phrases:
+  - "acci\xF3n"
+  - "acorde\xF3n"
+  - "adem\xE1s"
+  - "adicci\xF3n"
+  - "admiraci\xF3n"
+  - "admisi\xF3n"
+  - "colibr\xED"
+  - "avi\xF3n"
+  - "bal\xF3n"
+  - "cort\xE9s"
+  - "com\xFAn"
+  - "mel\xF3n"
+  - "sof\xE1"
+  - "uni\xF3n"
+  - "ol\xE9"
+  - "port\xF3n"
+  - "pap\xE1"
+  - "mam\xE1"
+  - "calz\xF3n"
+  - "man\xED"

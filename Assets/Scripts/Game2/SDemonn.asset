@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a7238369341dd4ba31125321f1ea8b, type: 3}
+  m_Name: SDemonn
+  m_EditorClassIdentifier: 
+  difficultyLevel: 4
+  phraseTime: 12
+  phrases:
+  - "Bal\xF3n"
+  - "Jam\xF3n"
+  - "Comp\xE1s"
+  - "Jam\xE1s"
+  - "Caf\xE9"
+  - "Canci\xF3n"
+  - "Ver\xE9"
+  - "A\xFAn"
+  - "Jap\xF3n"
+  - Ahora
+  - "Mam\xE1"
+  - "Pap\xE1"
+  - "Per\xFA"
+  - "At\xFAn"
+  - "Lim\xF3n"
+  - "Par\xEDs"
+  - "Ra\xEDz"
+  - "Vend\xED"
+  - "Carb\xF3n"
+  - "Man\xED"
+  - "Sub\xED"
+  - "Tibur\xF3n"
+  - "Rub\xED"
+  - Diamante
+  - "Pur\xE9"
