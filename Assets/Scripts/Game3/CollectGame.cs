@@ -24,6 +24,7 @@ public class CollectGame : MonoBehaviour
     public GameObject canvasPedido;
     public GameObject canvasUI;
     public GameObject canvasHTP;
+    public GameObject canvasPausa;
 
     public TMP_Text textComponent;
     public string fullText;
@@ -60,7 +61,7 @@ public class CollectGame : MonoBehaviour
 
         ObjectAnim = GetComponent<Animator>();
         canvasHTP.SetActive(true);
-        canvasPedido.SetActive(false);
+        canvasPausa.SetActive(false);
         canvasUI.SetActive(false);
 
         for (int i = 1; i <= 5; i++)
@@ -109,6 +110,7 @@ public class CollectGame : MonoBehaviour
         canvasHTP.SetActive(false);
         canvasPedido.SetActive(true);
         canvasUI.SetActive(true);
+        canvasPausa.SetActive(true);
         StartGame();
     }
 
@@ -182,6 +184,7 @@ public class CollectGame : MonoBehaviour
         ShowOrder(selectedDifficulty);
         canvasPedido.SetActive(true);
         iTween.ScaleFrom(canvasPedido, Vector3.zero, 1f); // Animar la escala del canvas desde cero a su tamaño normal en 1 segundo
+        yield return new WaitForSeconds(.1f);
         animaciones.StartTalk();
     }
 

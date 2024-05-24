@@ -2680,6 +2680,7 @@ MonoBehaviour:
   canvasMaster: {fileID: 457204927}
   canvasWinners: {fileID: 199772179}
   panelP1Winner: {fileID: 1608228423}
+  canvasPausa: {fileID: 953286231}
   howToPlay: {fileID: 784670354}
   J1Responde: 0
   finPregun: 0

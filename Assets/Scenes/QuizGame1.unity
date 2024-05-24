@@ -3432,6 +3432,7 @@ MonoBehaviour:
   panelP1Winner: {fileID: 1608228423}
   panelP2Winner: {fileID: 1304126907}
   panelEmpate: {fileID: 1692403638}
+  canvasPausa: {fileID: 1353840135}
   howToPlay: {fileID: 784670354}
   J1Responde: 0
   J2Responde: 0

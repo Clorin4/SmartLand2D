@@ -39,7 +39,7 @@ public class QuizzGame : MonoBehaviour
     public GameObject panelP1Winner;
     public GameObject panelP2Winner;
     public GameObject panelEmpate;
-
+    public GameObject canvasPausa;
     public Canvas howToPlay;
 
     public bool J1Responde;
@@ -84,6 +84,7 @@ public class QuizzGame : MonoBehaviour
     public void ButtonStart()
     {
         howToPlay.gameObject.SetActive(false);
+        canvasPausa.SetActive(true);
         StartCoroutine(Countdown());
     }
 
@@ -95,6 +96,7 @@ public class QuizzGame : MonoBehaviour
         panelP1Winner.SetActive(false);
         panelP2Winner.SetActive(false);
         panelEmpate.SetActive(false);
+        canvasPausa.SetActive(false);
 
         for (int i = 0; i < 10; i++)
         {

@@ -40,7 +40,7 @@ public class QGSP : MonoBehaviour
     public Canvas canvasMaster;
     public Canvas canvasWinners;
     public GameObject panelP1Winner;
-
+    public GameObject canvasPausa;
 
     public Canvas howToPlay;
 
@@ -84,6 +84,7 @@ public class QGSP : MonoBehaviour
     public void ButtonStart()
     {
         howToPlay.gameObject.SetActive(false);
+        canvasPausa.SetActive(true);
         StartCoroutine(Countdown());
     }
 
@@ -94,6 +95,7 @@ public class QGSP : MonoBehaviour
         canvasWinners.gameObject.SetActive(false);
         panelP1Winner.SetActive(false);
         finPregun = false;
+        canvasPausa.SetActive(false);
 
         for (int i = 0; i < 5; i++)
         {
