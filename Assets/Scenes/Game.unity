@@ -158,6 +158,7 @@ MonoBehaviour:
   menuConfirmar: {fileID: 802861025}
   slider: {fileID: 1984559549}
   sliderValue: 0
+  muteToggle: {fileID: 2106060619}
   selectedButton: 
 --- !u!4 &17088685
 Transform:
