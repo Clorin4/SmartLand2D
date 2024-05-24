@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class CollectGame : MonoBehaviour
 {
+    private Animator ObjectAnim;
 
     public SpriteRenderer sprite3Renderer;
     public SpriteRenderer sprite2Renderer;
@@ -57,6 +58,7 @@ public class CollectGame : MonoBehaviour
         TurnOffVariables();
         SaberDificultad();
 
+        ObjectAnim = GetComponent<Animator>();
         canvasHTP.SetActive(true);
         canvasPedido.SetActive(false);
         canvasUI.SetActive(false);
@@ -290,6 +292,7 @@ public class CollectGame : MonoBehaviour
             {
                 if (!P2Checking)
                 {
+                    StartEatAnim();
                     P1Checking = true;
                     globoTextE.SetActive(false);
                     isOnClickedE = true;
@@ -326,6 +329,7 @@ public class CollectGame : MonoBehaviour
             {
                 if (!P1Checking)
                 {
+                    StartEatAnim();
                     P2Checking = true;
                     globoTextShift.SetActive(false);
                     isOnClickedE = true;
@@ -348,6 +352,18 @@ public class CollectGame : MonoBehaviour
             isInRange = false;
             globoTextShift.SetActive(false);
         }
+    }
+
+    public void StartEatAnim()
+    {
+        StartCoroutine(Select());
+    }
+
+    IEnumerator Select()
+    {
+        ObjectAnim.SetBool("select", true);
+        yield return new WaitForSeconds(1.0f);
+        ObjectAnim.SetBool("select", false);
     }
 
     public void ScoreUI()

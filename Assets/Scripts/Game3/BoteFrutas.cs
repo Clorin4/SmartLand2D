@@ -5,6 +5,7 @@ using TMPro;
 
 public class BoteFrutas : MonoBehaviour
 {
+    private Animator ObjectAnim;
     public Transform player1;
     public Transform player2;
     public float interactionRadius = 3f;
@@ -20,6 +21,7 @@ public class BoteFrutas : MonoBehaviour
 
     private void Start()
     {
+        ObjectAnim = GetComponent<Animator>();
         PlayerPrefs.SetInt("CanMovePlayer1", 1);
         PlayerPrefs.SetInt("CanMovePlayer2", 1);
         StartCoroutine(BuscarPlayers());
@@ -66,6 +68,7 @@ public class BoteFrutas : MonoBehaviour
         {
             if (isPlayer1Interacting && Input.GetKeyDown(KeyCode.S))
             {
+                StartEatAnim();
                 PlayerPrefs.SetInt("CanMovePlayer1", 1);
                 //PlayerPrefs.SetInt("CanMovePlayer2", 1);
                 fruitSelectionMenu.GetComponent<FruitSelectionMenu>().SelectFruit();
@@ -76,6 +79,7 @@ public class BoteFrutas : MonoBehaviour
             }
             else if (isPlayer2Interacting && Input.GetKeyDown(KeyCode.DownArrow))
             {
+                StartEatAnim();
                 PlayerPrefs.SetInt("CanMovePlayer2", 1);
                 //PlayerPrefs.SetInt("CanMovePlayer2", 1);
                 fruitSelectionMenu.GetComponent<FruitSelectionMenu>().SelectFruit();
@@ -121,5 +125,17 @@ public class BoteFrutas : MonoBehaviour
 
         // Comprueba si el jugador 2 está dentro del radio de interacción.
         isPlayer2Near = distance2 <= interactionRadius;
+    }
+
+    public void StartEatAnim()
+    {
+        StartCoroutine(Eat());
+    }
+
+    IEnumerator Eat()
+    {
+        ObjectAnim.SetBool("Eat", true);
+        yield return new WaitForSeconds(1.0f);
+        ObjectAnim.SetBool("Eat", false);
     }
 }
