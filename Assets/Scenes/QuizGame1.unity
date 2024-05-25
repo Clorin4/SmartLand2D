@@ -1216,7 +1216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &199772177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1294,7 +1294,6 @@ RectTransform:
   - {fileID: 1304126908}
   - {fileID: 1692403639}
   - {fileID: 1334622049}
-  - {fileID: 1380882688}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7913,6 +7912,35 @@ MonoBehaviour:
         - Cuento
         - "Canci\xF3n"
         correctAnswerIndex: 1
+      - questionText: Un sustantivo propio es...
+        options:
+        - Libro
+        - Miguel
+        - Tomate
+        - Pollo
+        correctAnswerIndex: 1
+      - questionText: "Un sustantivo com\xFAn es..."
+        options:
+        - "Cami\xF3n"
+        - Patricia
+        - "M\xE9xico"
+        - Dumbo
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l es la caracteristica principal de una f\xE1bula?"
+        options:
+        - Muchos personajes
+        - La moraleja
+        - Las hadas
+        - Es larga
+        correctAnswerIndex: 1
+      - questionText: Consiste en compartir diferentes datos de personas, objetos
+          o vivescias
+        options:
+        - Agrumentar
+        - Chismear
+        - Informar
+        - Entretener
+        correctAnswerIndex: 2
     - name: matematicas
       preguntas:
       - questionText: "Tengo 4 bolsas de 10 chicles cada una, Cu\xE1ntos chicles
@@ -7959,6 +7987,62 @@ MonoBehaviour:
         - 5
         - 30
         correctAnswerIndex: 1
+      - questionText: "Suma que d\xE9 110"
+        options:
+        - 50 + 20
+        - 60 + 40
+        - 90 + 20
+        - 10 + 10
+        correctAnswerIndex: 2
+      - questionText: 3 + 3 + 3 =
+        options:
+        - 9
+        - 6
+        - 12
+        - 10
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 pesa m\xE1s, un kilo de ma\xEDz o un kilo de plumas?"
+        options:
+        - Pesan lo mismo
+        - "El ma\xEDz"
+        - Las plumas
+        - Las tortillas
+        correctAnswerIndex: 0
+      - questionText: "Tengo 100 pesos y me gasto 40 pesos, cu\xE1nto me queda?"
+        options:
+        - 60 pesos
+        - 140 pesos
+        - 40 pesos
+        - 80 pesos
+        correctAnswerIndex: 0
+      - questionText: "Tengo 25 pesos, cu\xE1nto me falta para completar 60 pesos?"
+        options:
+        - 35 pesos
+        - 25 pesos
+        - 85 pesos
+        - 5 pesos
+        correctAnswerIndex: 0
+      - questionText: "3, 5, 7, 9, 11 son n\xFAmeros..."
+        options:
+        - Impares
+        - Pares
+        - Romanos
+        - Ordinales
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 utilicas para medir longitudes"
+        options:
+        - "M\xE9tro"
+        - Reloj
+        - "B\xE1scula"
+        - "Term\xF3metro"
+        correctAnswerIndex: 0
+      - questionText: "Tengo 20 l\xE1pices y 4 cajas"
+        options:
+        - "5 l\xE1pices"
+        - "10 l\xE1pices"
+        - "20 l\xE1pices"
+        - "2 l\xE1pices"
+        correctAnswerIndex: 0
     - name: ciencia
       preguntas:
       - questionText: "Cu\xE1ntos sentidos hay?"
@@ -7975,23 +8059,282 @@ MonoBehaviour:
         - Alimentos de origen animal
         - Cereales y legumbres
         correctAnswerIndex: 0
-      - questionText: "Qu\xE9 alimentos da\xF1an tu salud?"
+      - questionText: "Qu\xE9 alimentos ayudan tu salud?"
         options:
         - Comida chatarra
         - Frutas y verduras
-        - Alimentos de origen animal
-        - Cereales y legumbres
+        - Galletas
+        - Pizza
+        correctAnswerIndex: 1
+      - questionText: El sentido de la vista lo tenemos en...
+        options:
+        - Los ojos
+        - La cara
+        - La lengua
+        - Los oidos
         correctAnswerIndex: 0
+      - questionText: El sentido del gusto lo tenemos en...
+        options:
+        - Los ojos
+        - La cara
+        - La lengua
+        - Los oidos
+        correctAnswerIndex: 2
+      - questionText: El sentido del olfato lo tenemos en...
+        options:
+        - Los ojos
+        - La nariz
+        - La lengua
+        - Los oidos
+        correctAnswerIndex: 1
+      - questionText: "Un objeto el\xE1stico"
+        options:
+        - Tronco
+        - Liga
+        - Piedra
+        - Agua
+        correctAnswerIndex: 1
+      - questionText: Un ejemplo de recursos naturales es...
+        options:
+        - "Tel\xE9fono"
+        - Arboles
+        - Casa
+        - Ropa
+        correctAnswerIndex: 1
     - name: etica
-      preguntas: []
+      preguntas:
+      - questionText: "Grupo de personas que las une un mismo v\xEDnculo?"
+        options:
+        - Familia
+        - Vecinos
+        - Emociones
+        - Desconocidos
+        correctAnswerIndex: 0
+      - questionText: Son experiencias personales, algunas agradables y otras desagradables
+        options:
+        - Emociones
+        - Pensamientos
+        - Experiencias
+        - Vivencias
+        correctAnswerIndex: 0
+      - questionText: Sirve para enfrentar o apartarse de un peligro
+        options:
+        - Miedo
+        - Familia
+        - Emociones
+        - Policia
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ndo sonries es por que te sientes?"
+        options:
+        - Feliz
+        - Triste
+        - Enojado
+        - Frustrado
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ndo lloras es por que te sientes?"
+        options:
+        - Feliz
+        - Triste
+        - Enojado
+        - Frustrado
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1ndo te enfureces tu..."
+        options:
+        - "Frunces el se\xF1o"
+        - Sonries
+        - Saltas
+        - Lloras
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l de estos es un s\xEDmbolo patrio"
+        options:
+        - Bandera
+        - Sombrero
+        - Tacos
+        - Uniforme
+        correctAnswerIndex: 0
+      - questionText: Es uno de los autores del himno nacional mexicano
+        options:
+        - "Jaime Nun\xF3"
+        - Francisco Gavilondo Soler
+        - Mozart
+        - Luis Miguel
+        correctAnswerIndex: 0
+      - questionText: Es uno de los autores del himno nacional mexicano
+        options:
+        - Francisco Bocanegra
+        - Francisco Gavilondo Soler
+        - Bethoven
+        - Chayanne
+        correctAnswerIndex: 0
+      - questionText: "Tr\xE1to cruel que algunas personas dan a los animales"
+        options:
+        - Maltrato animal
+        - "Empat\xEDa"
+        - Naturaleza
+        - Encierro
+        correctAnswerIndex: 0
+      - questionText: Valor que ayuda a los humanos a reconocer los derechos de otros
+          seres vivos
+        options:
+        - Dignidad
+        - "Discriminaci\xF3n"
+        - Iguadad
+        - Solidaridad
+        correctAnswerIndex: 0
+      - questionText: "Acci\xF3n para cuidar el agua es..."
+        options:
+        - Cerrar llave
+        - Tirar basura
+        - Regarla
+        - Enfriarla
+        correctAnswerIndex: 0
+      - questionText: Consecuencia de desacuerdos o malos entendidos
+        options:
+        - "Participaci\xF3n"
+        - Conflictos
+        - "Di\xE1logo"
+        - Abrazos
+        correctAnswerIndex: 1
+      - questionText: "Es una habilidad escencial relacionada con el dialogo y la
+          comunicaci\xF3n"
+        options:
+        - Hacer ejercicio
+        - Leer mucho
+        - Escuchar atentamente
+        - Cerrar los ojos
+        correctAnswerIndex: 2
   - name: dif3
     materias:
+    - name: "espa\xF1ol"
+      preguntas:
+      - questionText: Cuenta sucesos especificos por medio de personajes reales o
+          imaginarios
+        options:
+        - "Narraci\xF3n"
+        - Noticia
+        - Anuncio
+        - Encuesta
+        correctAnswerIndex: 0
+      - questionText: "Escribir las caracter\xEDsticas de algo o alguien es un..."
+        options:
+        - Texto descriptivo
+        - "Texto cient\xEDfico"
+        - Texto en rima
+        - Texto narrativo
+        correctAnswerIndex: 0
+      - questionText: Es la secuencia de acontecimientos a lo largo del tiempo
+        options:
+        - "Orden cronol\xF3gico"
+        - La rima
+        - "Texto cient\xEDfco"
+        - Cuento
+        correctAnswerIndex: 0
+      - questionText: Un adjetivo calificativo es...
+        options:
+        - Bonita
+        - Correr
+        - "\xC1rboles"
+        - Abajo
+        correctAnswerIndex: 0
+      - questionText: Ejemplo de uso correcto dela coma
+        options:
+        - Tengo huevo, leche y pan
+        - Tengo huevo leche y pan
+        - Tengo, leche, huevo y pan
+        - Tengo huevo, leche, y pan
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son los signos de interrogaci\xF3n?"
+        options:
+        - "\xBF ?"
+        - "\xA1 !"
+        - +-
+        - ( )
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son los signos de exclamaaci\xF3n?"
+        options:
+        - "\xBF ?"
+        - "\xA1 !"
+        - +-
+        - ( )
+        correctAnswerIndex: 1
+      - questionText: "Palabras ordenadas alfab\xE9ticamente son..."
+        options:
+        - "Avi\xF3n, casa, foco"
+        - "Casa, avi\xF3n, Foco"
+        - "Foco, aasa, avi\xF3n"
+        - "Avi\xF3n, foco, casa"
+        correctAnswerIndex: 0
+      - questionText: Texto que muestra el procedimiento para realizar algo
+        options:
+        - Instructivo
+        - Narrativo
+        - Descriptivo
+        - "Cronol\xF3gico"
+        correctAnswerIndex: 0
+      - questionText: "El verbo \"BRINCAR\" est\xE1 en tiempo..."
+        options:
+        - Infinitivo
+        - "Copret\xE9rito"
+        - Presente
+        - Futuro
+        correctAnswerIndex: 0
     - name: matematicas
       preguntas: []
-    - name: historia
-      preguntas: []
     - name: ciencia
-      preguntas: []
+      preguntas:
+      - questionText: "Forma gr\xE1fica como se pueden representar los espacios geogrefica"
+        options:
+        - Mapas
+        - Instructivos
+        - "Cartograf\xEDa"
+        - Plano
+        correctAnswerIndex: 0
+      - questionText: Puntos de referencia para ubicar cualquier lugar en el mundo
+        options:
+        - Puntos cardinales
+        - Puntos suspensivos
+        - Puntos de vista
+        - Puntos naturales
+        correctAnswerIndex: 0
+    - name: etica
+      preguntas:
+      - questionText: "Interacci\xF3n y respetuosa con otras personas es..."
+        options:
+        - La convivencia
+        - "La colaboraci\xF3n"
+        - Los valores
+        - La amistad
+        correctAnswerIndex: 0
+      - questionText: Conjunto de principios que condicionan la forma de actuar y
+          comportarse
+        options:
+        - Los valores
+        - La amistad
+        - Las emociones
+        - La convivencia
+        correctAnswerIndex: 0
+      - questionText: "Tomar en cuenta las consecuencias de los actos sin que afecte
+          a los dem\xE1s"
+        options:
+        - Responsabilidad
+        - Honestidad
+        - Tolerancia
+        - Relajo
+        correctAnswerIndex: 0
+      - questionText: Implica ponerse en el lugar del otro para entender su sentir
+        options:
+        - "Empat\xEDa"
+        - Honestidad
+        - Tolerancia
+        - Responsabilidad
+        correctAnswerIndex: 0
+      - questionText: "Lenguas, costumbres, m\xFAsic y rituales son ejemplos de..."
+        options:
+        - Patrimonio cultural
+        - Ecosistemas
+        - "Comunicaci\xF3n"
+        - Herencia
+        correctAnswerIndex: 0
   - name: dif4
     materias:
     - name: matematicas
@@ -9792,139 +10135,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
---- !u!1 &1380882687
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1380882688}
-  - component: {fileID: 1380882691}
-  - component: {fileID: 1380882690}
-  - component: {fileID: 1380882689}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1380882688
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380882687}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 199772180}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 12}
-  m_SizeDelta: {x: 800, y: 350}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1380882689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380882687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 1574165844, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_PressedSprite: {fileID: -412694447, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_SelectedSprite: {fileID: -771321651, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_DisabledSprite: {fileID: -771321651, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1380882690}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 477910669}
-        m_TargetAssemblyTypeName: QuizzGame, Assembly-CSharp
-        m_MethodName: Salir
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
---- !u!114 &1380882690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380882687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -771321651, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1380882691
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380882687}
-  m_CullTransparentMesh: 1
 --- !u!1 &1385715261
 GameObject:
   m_ObjectHideFlags: 0

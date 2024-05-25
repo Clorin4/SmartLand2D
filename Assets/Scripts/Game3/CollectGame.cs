@@ -25,6 +25,7 @@ public class CollectGame : MonoBehaviour
     public GameObject canvasUI;
     public GameObject canvasHTP;
     public GameObject canvasPausa;
+    public GameObject[] panelWinners;
 
     public TMP_Text textComponent;
     public string fullText;
@@ -87,6 +88,8 @@ public class CollectGame : MonoBehaviour
         spriteAdelanteRenderer.gameObject.SetActive(false);
         spriteFinishRenderer.gameObject.SetActive(false);
 
+        panelWinners[0].SetActive(false);
+        panelWinners[1].SetActive(false);
         canvasPedido.SetActive(false);
         globoTextE.SetActive(false);
         globoTextShift.SetActive(false);
@@ -408,12 +411,14 @@ public class CollectGame : MonoBehaviour
             GanaP1 = true;
             ScoreUI();
             StartCoroutine(Finish());
+            panelWinners[0].SetActive(true);
         }
         else if (ScoreP2 == 5)
         {
             GanaP2 = true;
             ScoreUI();
             StartCoroutine(Finish());
+            panelWinners[1].SetActive(true);
         }
 
         if (GanaP1)
@@ -692,6 +697,11 @@ public class CollectGame : MonoBehaviour
                 P2Checking = false;
             }
         }
+    }
+
+    public void Salir()
+    {
+        SceneManager.LoadScene(1);
     }
 
 }
