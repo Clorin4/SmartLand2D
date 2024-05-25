@@ -1216,7 +1216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &199772177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8295,6 +8295,42 @@ MonoBehaviour:
         - Puntos suspensivos
         - Puntos de vista
         - Puntos naturales
+        correctAnswerIndex: 0
+      - questionText: "Se forma por m\xFAsculos y huesos"
+        options:
+        - Sistema locomotor
+        - Sistema digestivo
+        - Sistema nevioso
+        - Sistema circulatorio
+        correctAnswerIndex: 0
+      - questionText: "Son tejidos el\xE1sticos que est\xE1n unidos a los huesos"
+        options:
+        - "M\xFAsculos"
+        - Articulaciones
+        - Pies
+        - Venas
+        correctAnswerIndex: 0
+      - questionText: "Son la parte r\xEDgida del cuerpo, le dan forma y lo sostienen"
+        options:
+        - Huesos
+        - "M\xFAsculos"
+        - Ligamentos
+        - Sangre
+        correctAnswerIndex: 0
+      - questionText: Conjunto de organos que determinan el sexo de una persona
+        options:
+        - Sistema reproductor
+        - Sistema digestivo
+        - Sistema circulatorio
+        - Sistema nervioso
+        correctAnswerIndex: 0
+      - questionText: "Estructuras formadas por m\xFAsculos membranas, cart\xEDlagos
+          y ligamentos"
+        options:
+        - Articulaciones
+        - Huesos
+        - "M\xFAsculos"
+        - Ligamentos
         correctAnswerIndex: 0
     - name: etica
       preguntas:
