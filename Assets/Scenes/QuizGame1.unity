@@ -8278,8 +8278,85 @@ MonoBehaviour:
         - Presente
         - Futuro
         correctAnswerIndex: 0
+      - questionText: Yo, tu, el, ella, nosotros, ustedes y ellos son...
+        options:
+        - Pronombres personales
+        - Adjetivos calificativos
+        - Conectores
+        - 'Verbos '
+        correctAnswerIndex: 0
+      - questionText: "El enunciado: \"Juan jugar\xE1 futbol\" se encuentra en tiempo..."
+        options:
+        - Futuro
+        - "Copret\xE9rito"
+        - Pasado
+        - Presente
+        correctAnswerIndex: 0
     - name: matematicas
-      preguntas: []
+      preguntas:
+      - questionText: "\xC1ngulo que tiene 90 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 0
+      - questionText: "\xC1ngulo que tiene menos de 90 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 2
+      - questionText: "\xC1ngulo que tiene m\xE1s de 90 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 3
+      - questionText: "\xC1ngulo que tiene 180 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1ntos cuartos tiene un entero?"
+        options:
+        - 4 cuartos
+        - 3 cuartos
+        - 1 cuarto
+        - 5 cuartos
+        correctAnswerIndex: 0
+      - questionText: "Fracci\xF3n equivalente a 1/2"
+        options:
+        - 4/8
+        - 1/3
+        - 4/2
+        - 6/3
+        correctAnswerIndex: 0
+      - questionText: 18, 27. 36, 45, 54 pertenecen a la serie del...
+        options:
+        - 9
+        - 8
+        - 7
+        - 12
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos caras tiene una piramide rectangular"
+        options:
+        - 5
+        - 4
+        - 7
+        - 10
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1nto vasos de 500ml llenas con 2 litros de agua?"
+        options:
+        - 5
+        - 4
+        - 7
+        - 10
+        correctAnswerIndex: 1
     - name: ciencia
       preguntas:
       - questionText: "Forma gr\xE1fica como se pueden representar los espacios geogrefica"
@@ -8332,6 +8409,20 @@ MonoBehaviour:
         - "M\xFAsculos"
         - Ligamentos
         correctAnswerIndex: 0
+      - questionText: Camino que sigue un objeto en movimiento
+        options:
+        - Trayectoria de movimiento
+        - "Ubicaci\xF3n espacial"
+        - Longitud
+        - Sendero
+        correctAnswerIndex: 0
+      - questionText: Son animales que no tienen esqueleto
+        options:
+        - Invertebrados
+        - Vertebrados
+        - Viviparos
+        - Anfibios
+        correctAnswerIndex: 0
     - name: etica
       preguntas:
       - questionText: "Interacci\xF3n y respetuosa con otras personas es..."
@@ -8370,6 +8461,13 @@ MonoBehaviour:
         - Ecosistemas
         - "Comunicaci\xF3n"
         - Herencia
+        correctAnswerIndex: 0
+      - questionText: "Son algunas lenguas originarias de M\xE9xico"
+        options:
+        - Nahuatl, Maya, Zapoteco
+        - "Espa\xF1ol, Ingles, Franc\xE9s"
+        - "Lat\xEDn, Griego, Romano"
+        - Hyliano, Simlish, Khajiita
         correctAnswerIndex: 0
   - name: dif4
     materias:
