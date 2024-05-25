@@ -8471,12 +8471,85 @@ MonoBehaviour:
         correctAnswerIndex: 0
   - name: dif4
     materias:
+    - name: "espa\xF1ol"
+      preguntas:
+      - questionText: 'Es el tiempo verbal que indica acciones que ocurren en el
+          momento actual '
+        options:
+        - 'Presente '
+        - 'Preterito '
+        - "Copret\xE9rito "
+        - Pasado
+        correctAnswerIndex: 0
+      - questionText: Tiempor verbal que se refiere a cosas que pasaron anteriormente
+        options:
+        - 'Presente '
+        - 'Preterito '
+        - "Copret\xE9rito "
+        - Pasado
+        correctAnswerIndex: 3
+      - questionText: "Ejemplo de copret\xE9rito"
+        options:
+        - Caminaba a la escuela
+        - Camino a mi casa
+        - "Ayer com\xED"
+        - "Yo camnin\xE9"
+        correctAnswerIndex: 0
+      - questionText: "Historia contada con imagenes animadas acompa\xF1adas de texto"
+        options:
+        - Comic
+        - "Texto monogr\xE1fico"
+        - Revista
+        - "Bolet\xEDn informativo"
+        correctAnswerIndex: 0
+      - questionText: "Publicaci\xF3n peri\xF3dica que informa sobre un tema principal"
+        options:
+        - Comic
+        - "Texto monogr\xE1fico"
+        - Resumen
+        - "Bolet\xEDn informativo"
+        correctAnswerIndex: 3
+      - questionText: Escrito con las ideas principales obtenidas de otros textos
+        options:
+        - Comic
+        - "Texto monogr\xE1fico"
+        - Resumen
+        - "Bolet\xEDn informativo"
+        correctAnswerIndex: 2
+      - questionText: "Ejemplo de oraci\xF3n escrita en imperativo"
+        options:
+        - Haz la tarea
+        - Puedes ir a la tienda?
+        - Ponte a hacer la tarea
+        - Quieres hacer la tarea?
+        correctAnswerIndex: 0
     - name: matematicas
-      preguntas: []
-    - name: historia
-      preguntas: []
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
     - name: ciencia
-      preguntas: []
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
+    - name: etica
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
   - name: dif5
     materias:
     - name: matematicas
