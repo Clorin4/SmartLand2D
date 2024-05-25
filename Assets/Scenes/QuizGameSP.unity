@@ -1148,6 +1148,947 @@ Transform:
   m_Father: {fileID: 2023663155}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &314533320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314533321}
+  - component: {fileID: 314533322}
+  m_Layer: 0
+  m_Name: QuestionData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &314533321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314533320}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1629114483}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &314533322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314533320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a85c61e9424f484f9f45b4d4c37bc2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  difficultyLevels:
+  - name: dif1
+    materias:
+    - name: "espa\xF1ol"
+      preguntas:
+      - questionText: "Qu\xE9 s\xEDlaba hace falta en esta palabra?      _ _ l l
+          a"
+        options:
+        - si
+        - co
+        - pla
+        - su
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 s\xEDlaba hace falta en esta palabra?      _ _ s a"
+        options:
+        - ca
+        - sal
+        - la
+        - ce
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 s\xEDlaba hace falta en esta palabra?      _ _ l o
+          j"
+        options:
+        - re
+        - te
+        - ca
+        - pe
+        correctAnswerIndex: 0
+      - questionText: Que vocales hacen falta en la palabra?     _ v _ s
+        options:
+        - u, a
+        - e, a
+        - o, o
+        - a, i
+        correctAnswerIndex: 0
+      - questionText: 'Que vocales hacen falta en la palabra?     g _ t _ '
+        options:
+        - a, o
+        - u, a
+        - o, e
+        - a, i
+        correctAnswerIndex: 0
+      - questionText: Que vocales hacen falta en la palabra?      p _ n _
+        options:
+        - i, o
+        - i, a
+        - e, u
+        - a, i
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son los signos de interrogaci\xF3n?"
+        options:
+        - "\xBF ?"
+        - "\xA1 !"
+        - +-
+        - ( )
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son los signos de exclamaaci\xF3n?"
+        options:
+        - "\xBF ?"
+        - "\xA1 !"
+        - +-
+        - ( )
+        correctAnswerIndex: 1
+    - name: matematicas
+      preguntas:
+      - questionText: Figura que tiene 3 lados iguales
+        options:
+        - "Tri\xE1ngulo"
+        - Circulo
+        - Cuadrado
+        - Rombo
+        correctAnswerIndex: 0
+      - questionText: Figura que tiene 4 lados iguales
+        options:
+        - "Tri\xE1ngulo"
+        - Circulo
+        - Cuadrado
+        - Rombo
+        correctAnswerIndex: 2
+      - questionText: Figura que tiene un solo lado
+        options:
+        - "Tri\xE1ngulo"
+        - Circulo
+        - Cuadrado
+        - Rombo
+        correctAnswerIndex: 1
+      - questionText: Figura que tiene 5 lados iguales
+        options:
+        - "Tri\xE1ngulo"
+        - Circulo
+        - Cuadrado
+        - Pentagono
+        correctAnswerIndex: 3
+      - questionText: "Cu\xE1nto le falta al n\xFAmero 7 para la docena"
+        options:
+        - 2
+        - 3
+        - 5
+        - 7
+        correctAnswerIndex: 2
+      - questionText: Figura que tiene 5 lados iguales
+        options:
+        - "Tri\xE1ngulo"
+        - Circulo
+        - Cuadrado
+        - Pentagono
+        correctAnswerIndex: 3
+      - questionText: "Elige el n\xFAmero m\xE1s grande"
+        options:
+        - 9
+        - 5
+        - 2
+        - 7
+        correctAnswerIndex: 0
+      - questionText: 20 - 17  =
+        options:
+        - 3
+        - 6
+        - 20
+        - 7
+        correctAnswerIndex: 0
+    - name: ciencia
+      preguntas:
+      - questionText: "Por qu\xE9 de noche no se puede ver bien?"
+        options:
+        - Porque ya es tarde
+        - Porque casi no hay luz
+        - Porque ya es hora de dormir
+        - Porque se cansan los ojos
+        correctAnswerIndex: 1
+      - questionText: "C\xF3mo sabes que es de d\xEDa?"
+        options:
+        - Porque se ve el sol
+        - Porque se ve la luna
+        - Porque se ven las estrellas
+        - "Porque est\xE1 pscuro"
+        correctAnswerIndex: 0
+      - questionText: El sol es una fuente de luz...
+        options:
+        - Natural
+        - Artificial
+        - Espacial
+        - Simple
+        correctAnswerIndex: 0
+      - questionText: "Las l\xE1mparas son una fuente de luz..."
+        options:
+        - Natural
+        - Artificial
+        - Espacial
+        - Simple
+        correctAnswerIndex: 1
+      - questionText: Los focos son una fuente de luz...
+        options:
+        - Natural
+        - Artificial
+        - Espacial
+        - Simple
+        correctAnswerIndex: 1
+      - questionText: "Este es un animal dom\xE9stico"
+        options:
+        - Jirafa
+        - Perro
+        - Oso
+        - Cucaracha
+        correctAnswerIndex: 1
+      - questionText: "Esta es una necesidad b\xE1sica"
+        options:
+        - Alimentarse
+        - Celular
+        - Ver la TV
+        - Comer muchos dulces
+        correctAnswerIndex: 0
+      - questionText: Ejemplo de flora
+        options:
+        - Arboles
+        - Gato
+        - Sombrero
+        - Ciudades
+        correctAnswerIndex: 0
+      - questionText: Ejemplo de fauna
+        options:
+        - Aves
+        - Flores
+        - Libros
+        - Ciudades
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l de estos es un objeto flexible"
+        options:
+        - Madera
+        - Papel
+        - "Jarr\xF3n"
+        - Silla
+        correctAnswerIndex: 1
+    - name: etica
+      preguntas:
+      - questionText: NO corresponde a un acuerdo escolar
+        options:
+        - Pelear en clase
+        - Llegar puntual
+        - Trabajar en equipo
+        - Estudiar en clase
+        correctAnswerIndex: 0
+      - questionText: Este es un simbolo patrio
+        options:
+        - Bandera
+        - Sombrero
+        - Tacos
+        - Sarape
+        correctAnswerIndex: 0
+      - questionText: "Tradici\xF3n t\xEDpica de M\xE9xico"
+        options:
+        - Dia de muertos
+        - Haloween
+        - Semana santa
+        - Dia de los inocentes
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l de las siguientes es una profesi\xF3n?"
+        options:
+        - "M\xE9dico"
+        - Carpintero
+        - Pintor
+        - Cerrajero
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l de las siguientes es un oficio?"
+        options:
+        - "M\xE9dico"
+        - Carpintero
+        - Maestro
+        - Arquitecto
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1l de las estas representa una autoridad en casa?"
+        options:
+        - Policia
+        - Padre, Madre
+        - Maestro
+        - Presidente
+        correctAnswerIndex: 1
+  - name: dif2
+    materias:
+    - name: "espa\xF1ol"
+      preguntas:
+      - questionText: "En d\xF3nde buscar\xEDas el significado de una palabra?"
+        options:
+        - Diccionario
+        - Recetario
+        - Revista
+        - "Peri\xF3dico"
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 palabra necesita MAY\xDASCULA al inicio"
+        options:
+        - "m\xE9xico"
+        - "mel\xF3n"
+        - lobo
+        - libro
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 palabra necesita MAY\xDASCULA al inicio"
+        options:
+        - maria
+        - "mel\xF3n"
+        - lobo
+        - libro
+        correctAnswerIndex: 0
+      - questionText: "Composici\xF3n literaria escrita en verso y es del g\xE9nero
+          l\xEDrico"
+        options:
+        - Poema
+        - Entrevista
+        - Cuento
+        - Historieta
+        correctAnswerIndex: 0
+      - questionText: "Texto de car\xE1cter ficticio que provienen de tradici\xF3n
+          oral"
+        options:
+        - Poema
+        - Entrevista
+        - Cuento
+        - "Canci\xF3n"
+        correctAnswerIndex: 2
+      - questionText: "Cuando uno o m\xE1s individuos realizan preguntas a otra persona"
+        options:
+        - Poema
+        - Entrevista
+        - Cuento
+        - "Canci\xF3n"
+        correctAnswerIndex: 1
+      - questionText: Un sustantivo propio es...
+        options:
+        - Libro
+        - Miguel
+        - Tomate
+        - Pollo
+        correctAnswerIndex: 1
+      - questionText: "Un sustantivo com\xFAn es..."
+        options:
+        - "Cami\xF3n"
+        - Patricia
+        - "M\xE9xico"
+        - Dumbo
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l es la caracteristica principal de una f\xE1bula?"
+        options:
+        - Muchos personajes
+        - La moraleja
+        - Las hadas
+        - Es larga
+        correctAnswerIndex: 1
+      - questionText: Consiste en compartir diferentes datos de personas, objetos
+          o vivescias
+        options:
+        - Agrumentar
+        - Chismear
+        - Informar
+        - Entretener
+        correctAnswerIndex: 2
+    - name: matematicas
+      preguntas:
+      - questionText: "Tengo 4 bolsas de 10 chicles cada una, Cu\xE1ntos chicles
+          tengo en total?"
+        options:
+        - 4
+        - 40
+        - 10
+        - 14
+        correctAnswerIndex: 1
+      - questionText: "Tengo 5 monedas de 10 pesos, Cu\xE1ntos dinero tengo en total?"
+        options:
+        - 5
+        - 50
+        - 10
+        - 15
+        correctAnswerIndex: 1
+      - questionText: "Tengo 3 monedas de 5 pesos, Cu\xE1ntos dinero tengo en total?"
+        options:
+        - 5
+        - 50
+        - 10
+        - 15
+        correctAnswerIndex: 3
+      - questionText: "Tengo 6 monedas de 5 pesos, Cu\xE1ntos dinero tengo en total?"
+        options:
+        - 60
+        - 15
+        - 5
+        - 30
+        correctAnswerIndex: 3
+      - questionText: "Tengo 6 monedas de 5 pesos, Cu\xE1ntos dinero tengo en total?"
+        options:
+        - 60
+        - 15
+        - 5
+        - 30
+        correctAnswerIndex: 3
+      - questionText: "Qu\xE9 n\xFAmero falta en esta serie?     5, 10,  _,  20, 
+          25"
+        options:
+        - 60
+        - 15
+        - 5
+        - 30
+        correctAnswerIndex: 1
+      - questionText: "Suma que d\xE9 110"
+        options:
+        - 50 + 20
+        - 60 + 40
+        - 90 + 20
+        - 10 + 10
+        correctAnswerIndex: 2
+      - questionText: 3 + 3 + 3 =
+        options:
+        - 9
+        - 6
+        - 12
+        - 10
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 pesa m\xE1s, un kilo de ma\xEDz o un kilo de plumas?"
+        options:
+        - Pesan lo mismo
+        - "El ma\xEDz"
+        - Las plumas
+        - Las tortillas
+        correctAnswerIndex: 0
+      - questionText: "Tengo 100 pesos y me gasto 40 pesos, cu\xE1nto me queda?"
+        options:
+        - 60 pesos
+        - 140 pesos
+        - 40 pesos
+        - 80 pesos
+        correctAnswerIndex: 0
+      - questionText: "Tengo 25 pesos, cu\xE1nto me falta para completar 60 pesos?"
+        options:
+        - 35 pesos
+        - 25 pesos
+        - 85 pesos
+        - 5 pesos
+        correctAnswerIndex: 0
+      - questionText: "3, 5, 7, 9, 11 son n\xFAmeros..."
+        options:
+        - Impares
+        - Pares
+        - Romanos
+        - Ordinales
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 utilicas para medir longitudes"
+        options:
+        - "M\xE9tro"
+        - Reloj
+        - "B\xE1scula"
+        - "Term\xF3metro"
+        correctAnswerIndex: 0
+      - questionText: "Tengo 20 l\xE1pices y 4 cajas"
+        options:
+        - "5 l\xE1pices"
+        - "10 l\xE1pices"
+        - "20 l\xE1pices"
+        - "2 l\xE1pices"
+        correctAnswerIndex: 0
+    - name: ciencia
+      preguntas:
+      - questionText: "Cu\xE1ntos sentidos hay?"
+        options:
+        - 5
+        - 4
+        - 6
+        - 3
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 alimentos da\xF1an tu salud?"
+        options:
+        - Comida chatarra
+        - Frutas y verduras
+        - Alimentos de origen animal
+        - Cereales y legumbres
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 alimentos ayudan tu salud?"
+        options:
+        - Comida chatarra
+        - Frutas y verduras
+        - Galletas
+        - Pizza
+        correctAnswerIndex: 1
+      - questionText: El sentido de la vista lo tenemos en...
+        options:
+        - Los ojos
+        - La cara
+        - La lengua
+        - Los oidos
+        correctAnswerIndex: 0
+      - questionText: El sentido del gusto lo tenemos en...
+        options:
+        - Los ojos
+        - La cara
+        - La lengua
+        - Los oidos
+        correctAnswerIndex: 2
+      - questionText: El sentido del olfato lo tenemos en...
+        options:
+        - Los ojos
+        - La nariz
+        - La lengua
+        - Los oidos
+        correctAnswerIndex: 1
+      - questionText: "Un objeto el\xE1stico"
+        options:
+        - Tronco
+        - Liga
+        - Piedra
+        - Agua
+        correctAnswerIndex: 1
+      - questionText: Un ejemplo de recursos naturales es...
+        options:
+        - "Tel\xE9fono"
+        - Arboles
+        - Casa
+        - Ropa
+        correctAnswerIndex: 1
+    - name: etica
+      preguntas:
+      - questionText: "Grupo de personas que las une un mismo v\xEDnculo?"
+        options:
+        - Familia
+        - Vecinos
+        - Emociones
+        - Desconocidos
+        correctAnswerIndex: 0
+      - questionText: Son experiencias personales, algunas agradables y otras desagradables
+        options:
+        - Emociones
+        - Pensamientos
+        - Experiencias
+        - Vivencias
+        correctAnswerIndex: 0
+      - questionText: Sirve para enfrentar o apartarse de un peligro
+        options:
+        - Miedo
+        - Familia
+        - Emociones
+        - Policia
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ndo sonries es por que te sientes?"
+        options:
+        - Feliz
+        - Triste
+        - Enojado
+        - Frustrado
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ndo lloras es por que te sientes?"
+        options:
+        - Feliz
+        - Triste
+        - Enojado
+        - Frustrado
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1ndo te enfureces tu..."
+        options:
+        - "Frunces el se\xF1o"
+        - Sonries
+        - Saltas
+        - Lloras
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l de estos es un s\xEDmbolo patrio"
+        options:
+        - Bandera
+        - Sombrero
+        - Tacos
+        - Uniforme
+        correctAnswerIndex: 0
+      - questionText: Es uno de los autores del himno nacional mexicano
+        options:
+        - "Jaime Nun\xF3"
+        - Francisco Gavilondo Soler
+        - Mozart
+        - Luis Miguel
+        correctAnswerIndex: 0
+      - questionText: Es uno de los autores del himno nacional mexicano
+        options:
+        - Francisco Bocanegra
+        - Francisco Gavilondo Soler
+        - Bethoven
+        - Chayanne
+        correctAnswerIndex: 0
+      - questionText: "Tr\xE1to cruel que algunas personas dan a los animales"
+        options:
+        - Maltrato animal
+        - "Empat\xEDa"
+        - Naturaleza
+        - Encierro
+        correctAnswerIndex: 0
+      - questionText: Valor que ayuda a los humanos a reconocer los derechos de otros
+          seres vivos
+        options:
+        - Dignidad
+        - "Discriminaci\xF3n"
+        - Iguadad
+        - Solidaridad
+        correctAnswerIndex: 0
+      - questionText: "Acci\xF3n para cuidar el agua es..."
+        options:
+        - Cerrar llave
+        - Tirar basura
+        - Regarla
+        - Enfriarla
+        correctAnswerIndex: 0
+      - questionText: Consecuencia de desacuerdos o malos entendidos
+        options:
+        - "Participaci\xF3n"
+        - Conflictos
+        - "Di\xE1logo"
+        - Abrazos
+        correctAnswerIndex: 1
+      - questionText: "Es una habilidad escencial relacionada con el dialogo y la
+          comunicaci\xF3n"
+        options:
+        - Hacer ejercicio
+        - Leer mucho
+        - Escuchar atentamente
+        - Cerrar los ojos
+        correctAnswerIndex: 2
+  - name: dif3
+    materias:
+    - name: "espa\xF1ol"
+      preguntas:
+      - questionText: Cuenta sucesos especificos por medio de personajes reales o
+          imaginarios
+        options:
+        - "Narraci\xF3n"
+        - Noticia
+        - Anuncio
+        - Encuesta
+        correctAnswerIndex: 0
+      - questionText: "Escribir las caracter\xEDsticas de algo o alguien es un..."
+        options:
+        - Texto descriptivo
+        - "Texto cient\xEDfico"
+        - Texto en rima
+        - Texto narrativo
+        correctAnswerIndex: 0
+      - questionText: Es la secuencia de acontecimientos a lo largo del tiempo
+        options:
+        - "Orden cronol\xF3gico"
+        - La rima
+        - "Texto cient\xEDfco"
+        - Cuento
+        correctAnswerIndex: 0
+      - questionText: Un adjetivo calificativo es...
+        options:
+        - Bonita
+        - Correr
+        - "\xC1rboles"
+        - Abajo
+        correctAnswerIndex: 0
+      - questionText: Ejemplo de uso correcto dela coma
+        options:
+        - Tengo huevo, leche y pan
+        - Tengo huevo leche y pan
+        - Tengo, leche, huevo y pan
+        - Tengo huevo, leche, y pan
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son los signos de interrogaci\xF3n?"
+        options:
+        - "\xBF ?"
+        - "\xA1 !"
+        - +-
+        - ( )
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son los signos de exclamaaci\xF3n?"
+        options:
+        - "\xBF ?"
+        - "\xA1 !"
+        - +-
+        - ( )
+        correctAnswerIndex: 1
+      - questionText: "Palabras ordenadas alfab\xE9ticamente son..."
+        options:
+        - "Avi\xF3n, casa, foco"
+        - "Casa, avi\xF3n, Foco"
+        - "Foco, aasa, avi\xF3n"
+        - "Avi\xF3n, foco, casa"
+        correctAnswerIndex: 0
+      - questionText: Texto que muestra el procedimiento para realizar algo
+        options:
+        - Instructivo
+        - Narrativo
+        - Descriptivo
+        - "Cronol\xF3gico"
+        correctAnswerIndex: 0
+      - questionText: "El verbo \"BRINCAR\" est\xE1 en tiempo..."
+        options:
+        - Infinitivo
+        - "Copret\xE9rito"
+        - Presente
+        - Futuro
+        correctAnswerIndex: 0
+      - questionText: Yo, tu, el, ella, nosotros, ustedes y ellos son...
+        options:
+        - Pronombres personales
+        - Adjetivos calificativos
+        - Conectores
+        - 'Verbos '
+        correctAnswerIndex: 0
+      - questionText: "El enunciado: \"Juan jugar\xE1 futbol\" se encuentra en tiempo..."
+        options:
+        - Futuro
+        - "Copret\xE9rito"
+        - Pasado
+        - Presente
+        correctAnswerIndex: 0
+    - name: matematicas
+      preguntas:
+      - questionText: "\xC1ngulo que tiene 90 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 0
+      - questionText: "\xC1ngulo que tiene menos de 90 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 2
+      - questionText: "\xC1ngulo que tiene m\xE1s de 90 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 3
+      - questionText: "\xC1ngulo que tiene 180 grados"
+        options:
+        - "\xC1ngulo recto"
+        - "\xC1ngulo llano"
+        - "\xC1ngulo agudo"
+        - "\xC1ngulo obtuso"
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1ntos cuartos tiene un entero?"
+        options:
+        - 4 cuartos
+        - 3 cuartos
+        - 1 cuarto
+        - 5 cuartos
+        correctAnswerIndex: 0
+      - questionText: "Fracci\xF3n equivalente a 1/2"
+        options:
+        - 4/8
+        - 1/3
+        - 4/2
+        - 6/3
+        correctAnswerIndex: 0
+      - questionText: 18, 27. 36, 45, 54 pertenecen a la serie del...
+        options:
+        - 9
+        - 8
+        - 7
+        - 12
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos caras tiene una piramide rectangular"
+        options:
+        - 5
+        - 4
+        - 7
+        - 10
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1nto vasos de 500ml llenas con 2 litros de agua?"
+        options:
+        - 5
+        - 4
+        - 7
+        - 10
+        correctAnswerIndex: 1
+    - name: ciencia
+      preguntas:
+      - questionText: "Forma gr\xE1fica como se pueden representar los espacios geogrefica"
+        options:
+        - Mapas
+        - Instructivos
+        - "Cartograf\xEDa"
+        - Plano
+        correctAnswerIndex: 0
+      - questionText: Puntos de referencia para ubicar cualquier lugar en el mundo
+        options:
+        - Puntos cardinales
+        - Puntos suspensivos
+        - Puntos de vista
+        - Puntos naturales
+        correctAnswerIndex: 0
+      - questionText: "Se forma por m\xFAsculos y huesos"
+        options:
+        - Sistema locomotor
+        - Sistema digestivo
+        - Sistema nevioso
+        - Sistema circulatorio
+        correctAnswerIndex: 0
+      - questionText: "Son tejidos el\xE1sticos que est\xE1n unidos a los huesos"
+        options:
+        - "M\xFAsculos"
+        - Articulaciones
+        - Pies
+        - Venas
+        correctAnswerIndex: 0
+      - questionText: "Son la parte r\xEDgida del cuerpo, le dan forma y lo sostienen"
+        options:
+        - Huesos
+        - "M\xFAsculos"
+        - Ligamentos
+        - Sangre
+        correctAnswerIndex: 0
+      - questionText: Conjunto de organos que determinan el sexo de una persona
+        options:
+        - Sistema reproductor
+        - Sistema digestivo
+        - Sistema circulatorio
+        - Sistema nervioso
+        correctAnswerIndex: 0
+      - questionText: "Estructuras formadas por m\xFAsculos membranas, cart\xEDlagos
+          y ligamentos"
+        options:
+        - Articulaciones
+        - Huesos
+        - "M\xFAsculos"
+        - Ligamentos
+        correctAnswerIndex: 0
+      - questionText: Camino que sigue un objeto en movimiento
+        options:
+        - Trayectoria de movimiento
+        - "Ubicaci\xF3n espacial"
+        - Longitud
+        - Sendero
+        correctAnswerIndex: 0
+      - questionText: Son animales que no tienen esqueleto
+        options:
+        - Invertebrados
+        - Vertebrados
+        - Viviparos
+        - Anfibios
+        correctAnswerIndex: 0
+    - name: etica
+      preguntas:
+      - questionText: "Interacci\xF3n y respetuosa con otras personas es..."
+        options:
+        - La convivencia
+        - "La colaboraci\xF3n"
+        - Los valores
+        - La amistad
+        correctAnswerIndex: 0
+      - questionText: Conjunto de principios que condicionan la forma de actuar y
+          comportarse
+        options:
+        - Los valores
+        - La amistad
+        - Las emociones
+        - La convivencia
+        correctAnswerIndex: 0
+      - questionText: "Tomar en cuenta las consecuencias de los actos sin que afecte
+          a los dem\xE1s"
+        options:
+        - Responsabilidad
+        - Honestidad
+        - Tolerancia
+        - Relajo
+        correctAnswerIndex: 0
+      - questionText: Implica ponerse en el lugar del otro para entender su sentir
+        options:
+        - "Empat\xEDa"
+        - Honestidad
+        - Tolerancia
+        - Responsabilidad
+        correctAnswerIndex: 0
+      - questionText: "Lenguas, costumbres, m\xFAsic y rituales son ejemplos de..."
+        options:
+        - Patrimonio cultural
+        - Ecosistemas
+        - "Comunicaci\xF3n"
+        - Herencia
+        correctAnswerIndex: 0
+      - questionText: "Son algunas lenguas originarias de M\xE9xico"
+        options:
+        - Nahuatl, Maya, Zapoteco
+        - "Espa\xF1ol, Ingles, Franc\xE9s"
+        - "Lat\xEDn, Griego, Romano"
+        - Hyliano, Simlish, Khajiita
+        correctAnswerIndex: 0
+  - name: dif4
+    materias:
+    - name: "espa\xF1ol"
+      preguntas:
+      - questionText: Tiempo verbal que indica acciones que ocurren en el momento
+          actual
+        options:
+        - Presnte
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
+    - name: matematicas
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
+    - name: ciencia
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
+    - name: etica
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
+  - name: dif5
+    materias:
+    - name: matematicas
+      preguntas: []
+    - name: historia
+      preguntas: []
+    - name: ciencia
+      preguntas: []
+  - name: dif6
+    materias:
+    - name: matematicas
+      preguntas: []
+    - name: historia
+      preguntas: []
+    - name: ciencia
+      preguntas: []
 --- !u!1 &453557375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +2286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e45843ca9bb9534db8894cd619e0661, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionData: {fileID: 1734843968}
+  questionData: {fileID: 0}
   spawnPoints:
   - {fileID: 1966129900}
   P1Hearts:
@@ -4243,7 +5184,7 @@ Transform:
   m_Children:
   - {fileID: 477910668}
   - {fileID: 1020256040}
-  - {fileID: 1734843967}
+  - {fileID: 314533321}
   - {fileID: 1844007414}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -4358,162 +5299,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701246366}
   m_CullTransparentMesh: 1
---- !u!1 &1734843966
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1734843967}
-  - component: {fileID: 1734843968}
-  m_Layer: 0
-  m_Name: QuestionData
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1734843967
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734843966}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 801.28326, y: 441.82742, z: -54.350197}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1629114483}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1734843968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734843966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a85c61e9424f484f9f45b4d4c37bc2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  difficultyLevels:
-  - name: dif1
-    materias:
-    - name: matematicas
-      preguntas:
-      - questionText: matehaz
-        options:
-        - si
-        - no
-        - no
-        - no
-        correctAnswerIndex: 0
-      - questionText: mate
-        options:
-        - a
-        - b
-        - c
-        - d
-        correctAnswerIndex: 0
-      - questionText: mate
-        options:
-        - a
-        - b
-        - c
-        - d
-        correctAnswerIndex: 0
-    - name: historia
-      preguntas:
-      - questionText: histo
-        options:
-        - si
-        - no
-        - no
-        - no
-        correctAnswerIndex: 0
-      - questionText: histo
-        options:
-        - a
-        - b
-        - c
-        - d
-        correctAnswerIndex: 0
-      - questionText: histo
-        options:
-        - a
-        - b
-        - c
-        - d
-        correctAnswerIndex: 0
-    - name: ciencia
-      preguntas:
-      - questionText: ciencia
-        options:
-        - a
-        - b
-        - c
-        - d
-        correctAnswerIndex: 0
-      - questionText: ciencia
-        options:
-        - a
-        - b
-        - c
-        - d
-        correctAnswerIndex: 0
-      - questionText: ciencia
-        options:
-        - a
-        - b
-        - c
-        - d
-        correctAnswerIndex: 0
-  - name: dif2
-    materias:
-    - name: matematicas
-      preguntas: []
-    - name: historia
-      preguntas: []
-    - name: ciencia
-      preguntas: []
-  - name: dif3
-    materias:
-    - name: matematicas
-      preguntas: []
-    - name: historia
-      preguntas: []
-    - name: ciencia
-      preguntas: []
-  - name: dif4
-    materias:
-    - name: matematicas
-      preguntas: []
-    - name: historia
-      preguntas: []
-    - name: ciencia
-      preguntas: []
-  - name: dif5
-    materias:
-    - name: matematicas
-      preguntas: []
-    - name: historia
-      preguntas: []
-    - name: ciencia
-      preguntas: []
-  - name: dif6
-    materias:
-    - name: matematicas
-      preguntas: []
-    - name: historia
-      preguntas: []
-    - name: ciencia
-      preguntas: []
 --- !u!1 &1749009753
 GameObject:
   m_ObjectHideFlags: 0

@@ -8471,12 +8471,43 @@ MonoBehaviour:
         correctAnswerIndex: 0
   - name: dif4
     materias:
+    - name: "espa\xF1ol"
+      preguntas:
+      - questionText: Tiempo verbal que indica acciones que ocurren en el momento
+          actual
+        options:
+        - Presnte
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
     - name: matematicas
-      preguntas: []
-    - name: historia
-      preguntas: []
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
     - name: ciencia
-      preguntas: []
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
+    - name: etica
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
   - name: dif5
     materias:
     - name: matematicas
