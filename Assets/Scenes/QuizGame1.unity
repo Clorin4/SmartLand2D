@@ -8548,21 +8548,165 @@ MonoBehaviour:
         correctAnswerIndex: 3
     - name: matematicas
       preguntas:
-      - questionText: 
+      - questionText: Nombre de la figura que tiene 6 lados iguales?
         options:
-        - 
-        - 
-        - 
-        - 
+        - "Hex\xE1gono"
+        - Cuadrado
+        - "Oct\xE1gono"
+        - "Pent\xE1gono"
+        correctAnswerIndex: 0
+      - questionText: Cuantos octavos tiene un entero?
+        options:
+        - 8
+        - 4
+        - 10
+        - 11
+        correctAnswerIndex: 0
+      - questionText: "L\xEDnea imaginaria que atraviesa una figura y forma 2 mitades
+          iguales?"
+        options:
+        - "Eje de simetr\xEDa"
+        - Angulos
+        - "V\xE9rtices"
+        - Aristas
+        correctAnswerIndex: 0
+      - questionText: "Figura que no tiene eje de simetr\xEDa?"
+        options:
+        - "Tri\xE1ngulo escaleno"
+        - Cuadrado
+        - "Tri\xE1ngulo is\xF3sceles"
+        - "Pent\xE1gono"
+        correctAnswerIndex: 0
+      - questionText: Son lineas que nunca se cruzan?
+        options:
+        - Paralelas
+        - Perpendiculares
+        - Rectas
+        - Cruzadas
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son fracciones equivalentes?"
+        options:
+        - 1/2 y 2/4
+        - 3/3 y 3/6
+        - 1/4 y 1/8
+        - 2/6 y 1/6
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos grados tiene un \xE1ngulo recto?"
+        options:
+        - 90
+        - 360
+        - 180
+        - 45
+        correctAnswerIndex: 0
+      - questionText: "Serie num\xE9rica que va de 4 en 4?"
+        options:
+        - 16-20-24
+        - 10-15-20
+        - 8-16-24
+        - 15-18-21
+        correctAnswerIndex: 0
+      - questionText: "C\xF3mo se representan los resultados de una encuesta?"
+        options:
+        - "Gr\xE1fica"
+        - Mapa
+        - Sumatoria
+        - "Cuadr\xEDcula"
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos lados tiene un oct\xE1gono?"
+        options:
+        - 8
+        - 4
+        - 16
+        - 6
+        correctAnswerIndex: 0
+      - questionText: "Si se divide un circulo en 4 partes iguales, cu\xE1ntos grados
+          mide 1/4 del circulo?"
+        options:
+        - 90 grados
+        - 45 grados
+        - 180 grados
+        - 30 grados
+        correctAnswerIndex: 0
+      - questionText: 32  x  2
+        options:
+        - 64
+        - 60
+        - 46
+        - 34
         correctAnswerIndex: 0
     - name: ciencia
       preguntas:
-      - questionText: 
+      - questionText: "Su funci\xF3n es transformar alimentos en nutrimentos para
+          el organismo?"
         options:
-        - 
-        - 
-        - 
-        - 
+        - Sistema digestivo
+        - Sistema reproductor.
+        - Sistema respiratorio.
+        - Sistema circulatorio.
+        correctAnswerIndex: 0
+      - questionText: "As\xED se le llama a la expulsi\xF3n de semen"
+        options:
+        - "Eyaculaci\xF3n"
+        - "Tab\xFA"
+        - Salud sexual
+        - "Menstruaci\xF3n"
+        correctAnswerIndex: 0
+      - questionText: "Son algunos \xF3rganos del sistema digestivo?"
+        options:
+        - "Boca, es\xF3fago, est\xF3mago"
+        - "Ovarios, \xFAtero, vagina"
+        - "Coraz\xF3n, venas, arterias"
+        - "M\xFAsculos, ligamentos"
+        correctAnswerIndex: 0
+      - questionText: "Est\xE1 formado por venas, arterias y coraz\xF3n?"
+        options:
+        - Sistema circulatorio
+        - Sistema digestivo
+        - Sistema reproductor
+        - Sistema nervioso
+        correctAnswerIndex: 0
+      - questionText: "Es la p\xE9rdia de bosques debido a la tala y actividades
+          agr\xEDcolas"
+        options:
+        - "Deforestaci\xF3n"
+        - "Contaminaci\xF3n"
+        - Aguas residuales
+        - Incendios
+        correctAnswerIndex: 0
+      - questionText: Son los estados del agua ?
+        options:
+        - "L\xEDquido, s\xF3lido y gaseoso"
+        - "R\xEDgido, Flexible y el\xE1stico"
+        - "L\xEDquido, s\xF3lido y flexible."
+        - "S\xF3lido y l\xEDquido."
+        correctAnswerIndex: 0
+      - questionText: Es aquello que tiene masa y ocupa un lugar en el espacio?
+        options:
+        - Materia
+        - Sonido
+        - Velocidad
+        - Luz
+        correctAnswerIndex: 0
+      - questionText: "En d\xF3nde encontramos el agua salada?"
+        options:
+        - Mares
+        - "R\xEDos"
+        - Lagunas
+        - Manantiales
+        correctAnswerIndex: 0
+      - questionText: Son propiedades que describen la materia?
+        options:
+        - "Propiedades f\xEDsicas"
+        - Dimensiones
+        - Propiedades privadas
+        - "Descripci\xF3n"
+        correctAnswerIndex: 0
+      - questionText: "Exceso de anuncios es contaminaci\xF3n?"
+        options:
+        - "Contaminaci\xF3n visual"
+        - "Contaminaci\xF3n del agua"
+        - "Contaminaci\xF3n del suelo"
+        - "Contaminaci\xF3n del aire"
         correctAnswerIndex: 0
     - name: etica
       preguntas:
@@ -8633,6 +8777,13 @@ MonoBehaviour:
         - "Profesi\xF3n"
         - Servicio social
         - "Servicio p\xFAblico"
+        correctAnswerIndex: 0
+      - questionText: "La hermana de mi mam\xE1 es mi?"
+        options:
+        - "T\xEDa"
+        - Hernana
+        - "T\xEDo"
+        - Sobrina
         correctAnswerIndex: 0
   - name: dif5
     materias:
