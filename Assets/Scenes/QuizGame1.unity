@@ -9433,13 +9433,111 @@ MonoBehaviour:
   - name: dif5
     materias:
     - name: "espa\xF1ol"
-      preguntas: []
+      preguntas:
+      - questionText: "Es un medio de comunicaci\xF3n que utiliza la transmisi\xF3n
+          de imagenes y sonidos "
+        options:
+        - "Televisi\xF3n"
+        - Impreso
+        - "Radiof\xF3nico"
+        - Internet
+        correctAnswerIndex: 0
+      - questionText: "Texto que se compone de una sucesi\xF3n de acci\xF3nes con
+          un orden l\xF3gico de acontecimientos"
+        options:
+        - "Narraci\xF3n"
+        - Encuesta
+        - Noticia
+        - Anuncio
+        correctAnswerIndex: 0
+      - questionText: "Medio para dar a conocer informaci\xF3n de forma breve, convincente
+          y atrayente"
+        options:
+        - Anuncio
+        - Noticia
+        - Encuesta
+        - "Infograf\xEDa"
+        correctAnswerIndex: 0
+      - questionText: "Instrumento que sirve para la recolecci\xF3n de datos"
+        options:
+        - Anuncio
+        - Noticia
+        - Encuesta
+        - "Infograf\xEDa"
+        correctAnswerIndex: 2
+      - questionText: "Instrumento que sirve para la recolecci\xF3n de datos"
+        options:
+        - Anuncio
+        - Noticia
+        - Encuesta
+        - "Infograf\xEDa"
+        correctAnswerIndex: 2
     - name: matematicas
-      preguntas: []
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
     - name: ciencia
-      preguntas: []
+      preguntas:
+      - questionText: 
+        options:
+        - 
+        - 
+        - 
+        - 
+        correctAnswerIndex: 0
     - name: etica
-      preguntas: []
+      preguntas:
+      - questionText: "Est\xE1 conformada por todas las caracter\xEDsticas que hacen
+          \xFAnica a una persona"
+        options:
+        - Identidad
+        - Documentos personales
+        - Familia
+        - Cultura
+        correctAnswerIndex: 0
+      - questionText: Desde que nacen, las personas desarrollan ciertas _____ que
+          adquieren en el trayecto de su vida
+        options:
+        - Capacidades
+        - Limitaciones
+        - "Caracter\xEDsticas"
+        - Experiencias de estudio
+        correctAnswerIndex: 0
+      - questionText: "Es todo lo que se aprende y experimenta en los a\xF1os educativos"
+        options:
+        - Capacidades
+        - Limitaciones
+        - "Caracter\xEDsticas"
+        - Experiencias de estudio
+        correctAnswerIndex: 3
+      - questionText: Capacidad de controlar y ajustar las relaciones emocionales
+          de uno mismo
+        options:
+        - "Regulaci\xF3n emocional"
+        - Sentimientos
+        - "Estados de \xE1nimo"
+        - Capacidades
+        correctAnswerIndex: 0
+      - questionText: "Acci\xF3n que emprende el gobierno para atender las necesidades
+          del pueblo"
+        options:
+        - "Servicios p\xFAblicos"
+        - Servicio social
+        - Servicio privado
+        - Servicios especiales
+        correctAnswerIndex: 0
+      - questionText: "Eran los hijos de espa\xF1oles nacidos en Am\xE9rica"
+        options:
+        - Criollos
+        - "Espa\xF1oles peninsulares"
+        - Afro descendientes
+        - "Ind\xEDgenas"
+        correctAnswerIndex: 0
   - name: dif6
     materias:
     - name: "espa\xF1ol"
