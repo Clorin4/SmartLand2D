@@ -14146,9 +14146,59 @@ MonoBehaviour:
     - Manzanas
     - Platanos
     fruits:
-    - {fileID: 1366142892, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
     - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
     quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000001000000
     operations:
     - +
     - +
@@ -14158,19 +14208,1725 @@ MonoBehaviour:
     fruits:
     - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
     - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
-    quantities: 0200000003000000
+    quantities: 0300000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0200000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000005000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000006000000
+    operations:
+    - +
+    - '-'
+  normalOrders:
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
     operations:
     - +
     - x
-  normalOrders:
-  - fruitNames: []
-    fruits: []
-    quantities: 
-    operations: []
-  hardOrders: []
-  harderOrders: []
-  insaneOrders: []
-  demonOrders: []
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000004000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000008000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000008000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000005000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000005000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000003000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000008000000
+    operations:
+    - +
+    - +
+  hardOrders:
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0100000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000007000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - 'Naranjas '
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000001000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - 'Platanos '
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000007000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000007000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000006000000
+    operations:
+    - +
+    - '-'
+  harderOrders:
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1700000016000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1500000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000015000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1400000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 2d00000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0f0000000a000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0a0000000d000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f0000000c000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2400000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 3100000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1e00000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000007000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0c0000000c000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3000000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0f00000005000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1c00000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0d0000000c000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1c00000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000006000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2d00000009000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0a00000014000000
+    operations:
+    - +
+    - +
+  insaneOrders:
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 4800000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2800000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3800000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4800000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1400000019000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3a00000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4800000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1700000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000015000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1500000015000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b800000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 5801000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 8002000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2000000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4001000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0c00000006000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2000000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 4a01000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: de00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1400000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2400000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 2d00000025000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 380000002b000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3a00000026000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4900000041000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2b00000014000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 3600000025000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b800000008000000
+    operations:
+    - +
+    - "\xF7"
+  demonOrders:
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: d40300000a000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4800000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: d40300000a000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: de00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4001000036010000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: d4030000ac030000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4402000015020000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1700000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2c0100001e000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b60300005f000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 8002000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 7003000058000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 020300004d000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1900000021000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3801000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 5a02000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: e001000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2000000020000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 6d030000ff020000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 170000001e000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 37020000f3010000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 280000001e000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b800000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: d401000009000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: f2020000b6020000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1e00000022000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3002000038000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0c03000008030000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2003000050000000
+    operations:
+    - +
+    - "\xF7"
 --- !u!1 &1722526538
 GameObject:
   m_ObjectHideFlags: 0
