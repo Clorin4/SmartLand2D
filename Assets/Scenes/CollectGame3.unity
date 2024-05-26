@@ -628,7 +628,7 @@ Transform:
   m_Children:
   - {fileID: 2131983340}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &103978857
 GameObject:
@@ -731,12 +731,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115671367}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1082085253}
+  m_Father: {fileID: 932129560}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1150,7 +1150,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &139345493
 GameObject:
@@ -1879,12 +1879,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264774925}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1082085253}
+  m_Father: {fileID: 932129560}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3064,7 +3064,7 @@ RectTransform:
   - {fileID: 1352930502}
   - {fileID: 1114759357}
   m_Father: {fileID: 1048793427}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3506,12 +3506,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 772032509}
+  m_Father: {fileID: 1048793427}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -888.093, y: 445.33997}
+  m_AnchoredPosition: {x: 21.90698, y: -44.660034}
   m_SizeDelta: {x: 900, y: 193}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &430206127
@@ -3587,8 +3587,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1057, y: -6.9001465}
-  m_SizeDelta: {x: 840, y: 148}
+  m_AnchoredPosition: {x: -1038.0005, y: -6.9001465}
+  m_SizeDelta: {x: 841.9995, y: 147.91913}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &442331925
 MonoBehaviour:
@@ -3664,7 +3664,7 @@ RectTransform:
   - {fileID: 1276269797}
   - {fileID: 461550136}
   - {fileID: 103978858}
-  m_Father: {fileID: 772032509}
+  m_Father: {fileID: 1048793427}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4182,13 +4182,9 @@ MonoBehaviour:
   operationTexts:
   - {fileID: 1150321347}
   - {fileID: 1150321347}
-  canvasPedido: {fileID: 1082085252}
-  canvasUI: {fileID: 772032508}
+  canvasPedido: {fileID: 932129556}
+  canvasUI: {fileID: 1048793423}
   canvasHTP: {fileID: 2021178223}
-  canvasPausa: {fileID: 391153272}
-  panelWinners:
-  - {fileID: 736390539}
-  - {fileID: 1125767785}
   textComponent: {fileID: 330164325}
   fullText: 
   typingSpeed: 0.08
@@ -4307,141 +4303,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &543582380
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 543582381}
-  - component: {fileID: 543582383}
-  - component: {fileID: 543582382}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &543582381
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543582380}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 736390540}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -51}
-  m_SizeDelta: {x: 395, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &543582382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543582380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Gana jugador 1 !
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0ad7e8a156d5f474e982d7783f966c96, type: 2}
-  m_sharedMaterial: {fileID: -3237613273424263367, guid: 0ad7e8a156d5f474e982d7783f966c96, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 1
-  m_colorMode: 2
-  m_fontColorGradient:
-    topLeft: {r: 0.5235849, g: 0.9952853, b: 1, a: 1}
-    topRight: {r: 0.5235849, g: 0.9952853, b: 1, a: 1}
-    bottomLeft: {r: 0, g: 0.43595576, b: 1, a: 1}
-    bottomRight: {r: 0, g: 0.43595576, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &543582383
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543582380}
-  m_CullTransparentMesh: 1
 --- !u!1 &550551841
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,7 +4552,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &627977381
 GameObject:
@@ -4853,7 +4714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627979278}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 5.38, z: -6.8160534}
+  m_LocalPosition: {x: 1, y: 4.3, z: -6.8160534}
   m_LocalScale: {x: 0.57613, y: 0.51616997, z: 0.97170997}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5578,124 +5439,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &736390539
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 736390540}
-  - component: {fileID: 736390542}
-  - component: {fileID: 736390541}
-  m_Layer: 5
-  m_Name: P1Winner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &736390540
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736390539}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.3999999, y: 2.3999999, z: 2.3999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 543582381}
-  - {fileID: 1764476164}
-  m_Father: {fileID: 1048793427}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -1120, y: -702.69635}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &736390541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736390539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &736390542
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736390539}
-  m_CullTransparentMesh: 1
---- !u!1 &772032508
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 772032509}
-  m_Layer: 5
-  m_Name: UI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &772032509
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772032508}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 430206126}
-  - {fileID: 1130957404}
-  - {fileID: 443282907}
-  - {fileID: 1722526540}
-  m_Father: {fileID: 1048793427}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &784561886
 GameObject:
   m_ObjectHideFlags: 0
@@ -6689,6 +6432,113 @@ RectTransform:
   m_AnchoredPosition: {x: -4.9999695, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &932129556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 932129560}
+  - component: {fileID: 932129559}
+  - component: {fileID: 932129558}
+  - component: {fileID: 932129557}
+  m_Layer: 5
+  m_Name: CanvasPedido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &932129557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932129556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &932129558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932129556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &932129559
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932129556}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &932129560
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932129556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1683808441}
+  - {fileID: 115671368}
+  - {fileID: 264774926}
+  - {fileID: 1763331366}
+  - {fileID: 1652050956}
+  - {fileID: 1150321346}
+  - {fileID: 1722526540}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &961637602
 GameObject:
   m_ObjectHideFlags: 0
@@ -6868,7 +6718,7 @@ GameObject:
   - component: {fileID: 1048793425}
   - component: {fileID: 1048793424}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6947,13 +6797,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 772032509}
-  - {fileID: 1082085253}
+  - {fileID: 430206126}
+  - {fileID: 1130957404}
+  - {fileID: 443282907}
   - {fileID: 391153273}
-  - {fileID: 736390540}
-  - {fileID: 1125767786}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7112,48 +6961,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067542341}
   m_CullTransparentMesh: 1
---- !u!1 &1082085252
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1082085253}
-  m_Layer: 5
-  m_Name: Pedido
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1082085253
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082085252}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1683808441}
-  - {fileID: 115671368}
-  - {fileID: 264774926}
-  - {fileID: 1763331366}
-  - {fileID: 1652050956}
-  - {fileID: 1150321346}
-  m_Father: {fileID: 1048793427}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1093983253
 GameObject:
   m_ObjectHideFlags: 0
@@ -7455,84 +7262,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114759356}
   m_CullTransparentMesh: 1
---- !u!1 &1125767785
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1125767786}
-  - component: {fileID: 1125767788}
-  - component: {fileID: 1125767787}
-  m_Layer: 5
-  m_Name: P2Winner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1125767786
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125767785}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.3999999, y: 2.3999999, z: 2.3999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1267208228}
-  - {fileID: 1738921007}
-  m_Father: {fileID: 1048793427}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -1120, y: -702.69635}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1125767787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125767785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1125767788
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125767785}
-  m_CullTransparentMesh: 1
 --- !u!1 &1130957403
 GameObject:
   m_ObjectHideFlags: 0
@@ -7569,7 +7298,7 @@ RectTransform:
   - {fileID: 1064284037}
   - {fileID: 1317535224}
   - {fileID: 2008814352}
-  m_Father: {fileID: 772032509}
+  m_Father: {fileID: 1048793427}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7701,12 +7430,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150321345}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1082085253}
+  m_Father: {fileID: 932129560}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -8029,7 +7758,7 @@ Transform:
   m_Children:
   - {fileID: 1286225182}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1193696725
 GameObject:
@@ -8154,7 +7883,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217109747}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8170,7 +7899,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024318695, y: 3.9526062}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1100, y: 783}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1217109749
@@ -8594,141 +8323,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1267208227
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1267208228}
-  - component: {fileID: 1267208230}
-  - component: {fileID: 1267208229}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1267208228
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267208227}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1125767786}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -51}
-  m_SizeDelta: {x: 395, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1267208229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267208227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Gana jugador 2 !
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0ad7e8a156d5f474e982d7783f966c96, type: 2}
-  m_sharedMaterial: {fileID: -3237613273424263367, guid: 0ad7e8a156d5f474e982d7783f966c96, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 1
-  m_colorMode: 2
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 0.7465282, b: 0.5613208, a: 1}
-    topRight: {r: 1, g: 0.7465282, b: 0.5613208, a: 1}
-    bottomLeft: {r: 0.8490566, g: 0, b: 0, a: 1}
-    bottomRight: {r: 0.8490566, g: 0, b: 0, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1267208230
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267208227}
-  m_CullTransparentMesh: 1
 --- !u!1 &1276269796
 GameObject:
   m_ObjectHideFlags: 0
@@ -12514,7 +12108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -40.9, y: -224}
+  m_AnchoredPosition: {x: -34, y: -224}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 1, y: 1}
 --- !u!1 &1452540557
@@ -12710,7 +12304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468927893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.46, y: -3.35, z: -32}
+  m_LocalPosition: {x: 9.58, y: -3.35, z: -32}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12885,8 +12479,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1.6469}
-  m_SizeDelta: {x: 1820, y: 1016.0724}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1820, y: 802.631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1477949368
 GameObject:
@@ -13789,12 +13383,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652050955}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1082085253}
+  m_Father: {fileID: 932129560}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -14218,13 +13812,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683808440}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330164324}
-  m_Father: {fileID: 1082085253}
+  m_Father: {fileID: 932129560}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -14552,9 +14146,59 @@ MonoBehaviour:
     - Manzanas
     - Platanos
     fruits:
-    - {fileID: 1366142892, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
     - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
     quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000001000000
     operations:
     - +
     - +
@@ -14564,7 +14208,1020 @@ MonoBehaviour:
     fruits:
     - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
     - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
-    quantities: 0200000003000000
+    quantities: 0300000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0200000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000005000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000006000000
+    operations:
+    - +
+    - '-'
+  normalOrders:
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000004000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000008000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000008000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000005000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000004000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000001000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000005000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0100000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000003000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000004000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000001000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000008000000
+    operations:
+    - +
+    - +
+  hardOrders:
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0100000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0400000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0300000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0200000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000007000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000002000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - 'Naranjas '
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0800000001000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - 'Platanos '
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0700000007000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0800000009000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0500000007000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0500000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0900000006000000
+    operations:
+    - +
+    - '-'
+  harderOrders:
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1700000016000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1500000003000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000015000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1400000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 2d00000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0f0000000a000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0a0000000d000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f0000000c000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2400000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 3100000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1e00000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0700000007000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0900000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000004000000
     operations:
     - +
     - x
@@ -14573,20 +15230,703 @@ MonoBehaviour:
     - Naranjas
     fruits:
     - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
-    - {fileID: 644236925, guid: ccc675f3ae27af04f8b38088714051ac, type: 3}
-    quantities: 0200000003000000
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0c0000000c000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3000000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0f00000005000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1c00000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0d0000000c000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1c00000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0400000004000000
     operations:
     - +
     - x
-  normalOrders:
-  - fruitNames: []
-    fruits: []
-    quantities: 
-    operations: []
-  hardOrders: []
-  harderOrders: []
-  insaneOrders: []
-  demonOrders: []
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0600000006000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2d00000009000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0a00000014000000
+    operations:
+    - +
+    - +
+  insaneOrders:
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 4800000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2800000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3800000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4800000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1400000019000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3a00000002000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4800000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1700000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000015000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1500000015000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b800000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 5801000004000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 8002000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0f00000003000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2000000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4001000005000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0c00000006000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2000000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 4a01000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: de00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1400000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2400000006000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 2d00000025000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 380000002b000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3a00000026000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4900000041000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2b00000014000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 3600000025000000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b800000008000000
+    operations:
+    - +
+    - "\xF7"
+  demonOrders:
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: d40300000a000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4800000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: d40300000a000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: de00000003000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4001000036010000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: d4030000ac030000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 4402000015020000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1700000001000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2c0100001e000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b60300005f000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 1800000002000000
+    operations:
+    - +
+    - x
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 8002000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 7003000058000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 020300004d000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Manzanas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1900000021000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3801000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 5a02000007000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: e001000006000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2000000020000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 6d030000ff020000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 170000001e000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 37020000f3010000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Platanos
+    - Naranjas
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 280000001e000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: b800000008000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: d401000009000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Manzanas
+    - Manzanas
+    fruits:
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: f2020000b6020000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Manzanas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 748219768, guid: 0d57a4cac0ce01049a9cc677726baeeb, type: 3}
+    quantities: 1e00000022000000
+    operations:
+    - +
+    - +
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 3002000038000000
+    operations:
+    - +
+    - "\xF7"
+  - fruitNames:
+    - Platanos
+    - Platanos
+    fruits:
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: 69345501, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 0c03000008030000
+    operations:
+    - +
+    - '-'
+  - fruitNames:
+    - Naranjas
+    - Naranjas
+    fruits:
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    - {fileID: -1078040930, guid: 648145c71d724ee4c8ea3e5145d99a3e, type: 3}
+    quantities: 2003000050000000
+    operations:
+    - +
+    - "\xF7"
 --- !u!1 &1722526538
 GameObject:
   m_ObjectHideFlags: 0
@@ -14665,14 +16005,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722526538}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -952.17, y: -537.263, z: 0}
   m_LocalScale: {x: 2.3069, y: 2.2416, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 772032509}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_Father: {fileID: 932129560}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1722526541
 Animator:
   serializedVersion: 5
@@ -14706,139 +16046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a935f20ebf8c24997f2d6289dc7a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1738921006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1738921007}
-  - component: {fileID: 1738921010}
-  - component: {fileID: 1738921009}
-  - component: {fileID: 1738921008}
-  m_Layer: 5
-  m_Name: Quit (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1738921007
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738921006}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.19999996, y: 0.19999996, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1125767786}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 54}
-  m_SizeDelta: {x: 800, y: 350}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1738921008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738921006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: -771321651, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_PressedSprite: {fileID: -412694447, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_SelectedSprite: {fileID: -771321651, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_DisabledSprite: {fileID: 1574165844, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1738921009}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 541538063}
-        m_TargetAssemblyTypeName: CollectGame, Assembly-CSharp
-        m_MethodName: Salir
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1738921009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738921006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 1574165844, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1738921010
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738921006}
-  m_CullTransparentMesh: 1
 --- !u!1 &1761944844
 GameObject:
   m_ObjectHideFlags: 0
@@ -14999,12 +16206,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763331365}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1082085253}
+  m_Father: {fileID: 932129560}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -15049,139 +16256,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763331365}
-  m_CullTransparentMesh: 1
---- !u!1 &1764476163
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1764476164}
-  - component: {fileID: 1764476167}
-  - component: {fileID: 1764476166}
-  - component: {fileID: 1764476165}
-  m_Layer: 5
-  m_Name: Quit (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1764476164
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764476163}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.19999996, y: 0.19999996, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 736390540}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 54}
-  m_SizeDelta: {x: 800, y: 350}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1764476165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764476163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: -771321651, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_PressedSprite: {fileID: -412694447, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_SelectedSprite: {fileID: -771321651, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-    m_DisabledSprite: {fileID: 1574165844, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1764476166}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 541538063}
-        m_TargetAssemblyTypeName: CollectGame, Assembly-CSharp
-        m_MethodName: Salir
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1764476166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764476163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 1574165844, guid: 71ee78b92b2d9d04d8ef58a92c3db53a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1764476167
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764476163}
   m_CullTransparentMesh: 1
 --- !u!1 &1774601718
 GameObject:
@@ -15698,7 +16772,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1031.2046, y: -6.9001465}
-  m_SizeDelta: {x: 840, y: 148}
+  m_SizeDelta: {x: 840.8517, y: 147.91913}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1870503743
 MonoBehaviour:
@@ -16501,16 +17575,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -17, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -17, z: 0}
     second:
       serializedVersion: 2
@@ -16522,16 +17586,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -16, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -16, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -16561,16 +17615,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -15, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -15, z: 0}
     second:
       serializedVersion: 2
@@ -16582,16 +17626,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -14, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -14, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -16621,16 +17655,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -13, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -13, z: 0}
     second:
       serializedVersion: 2
@@ -16642,16 +17666,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -12, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -12, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17021,16 +18035,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -11, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -11, z: 0}
     second:
       serializedVersion: 2
@@ -17042,16 +18046,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -10, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17081,16 +18075,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -9, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -9, z: 0}
     second:
       serializedVersion: 2
@@ -17102,16 +18086,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -8, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -8, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17141,16 +18115,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -7, z: 0}
     second:
       serializedVersion: 2
@@ -17162,16 +18126,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -6, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17201,16 +18155,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -5, z: 0}
     second:
       serializedVersion: 2
@@ -17222,16 +18166,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17261,16 +18195,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -17282,16 +18206,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17321,16 +18235,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -17342,16 +18246,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 0, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17381,16 +18275,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -17402,16 +18286,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17441,16 +18315,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: 3, z: 0}
     second:
       serializedVersion: 2
@@ -17462,16 +18326,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17501,16 +18355,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: 5, z: 0}
     second:
       serializedVersion: 2
@@ -17522,16 +18366,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 6, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17561,16 +18395,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: 7, z: 0}
     second:
       serializedVersion: 2
@@ -17582,16 +18406,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: 8, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 8, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -17621,16 +18435,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 9, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: 9, z: 0}
     second:
       serializedVersion: 2
@@ -17651,16 +18455,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 10, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 22, y: 10, z: 0}
     second:
       serializedVersion: 2
@@ -17672,16 +18466,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -40, y: 11, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -39, y: 11, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 34
@@ -18401,7 +19185,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 29
     m_Data: {fileID: 11400000, guid: 1aaee21a8d1b2194b998b13e5928c20a, type: 2}
-  - m_RefCount: 59
+  - m_RefCount: 30
     m_Data: {fileID: 11400000, guid: 00db4eade9dddaa4188f787d5ccd93d3, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -18464,7 +19248,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 59
+  - m_RefCount: 30
     m_Data: {fileID: -644911733, guid: d6536c470be694243af7c97a82a603a6, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -18487,7 +19271,7 @@ Tilemap:
   - m_RefCount: 63
     m_Data: {fileID: -871381563, guid: d6536c470be694243af7c97a82a603a6, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 247
+  - m_RefCount: 218
     m_Data:
       e00: 1
       e01: 0
@@ -18506,7 +19290,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 247
+  - m_RefCount: 218
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -19276,7 +20060,7 @@ RectTransform:
   m_Children:
   - {fileID: 1411078273}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19586,7 +20370,7 @@ Transform:
   - {fileID: 1234633916}
   - {fileID: 1468927894}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2053719931
 GameObject:
