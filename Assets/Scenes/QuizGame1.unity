@@ -7690,6 +7690,48 @@ MonoBehaviour:
         - +-
         - ( )
         correctAnswerIndex: 1
+      - questionText: "Cu\xE1les son las 5 vocales"
+        options:
+        - g, e, u, h, f
+        - a, b, c, d, e
+        - i, e, o, a, u
+        - a, e, i, o, c
+        correctAnswerIndex: 2
+      - questionText: Palabra que termina igual que "RANA"
+        options:
+        - Jugar
+        - Campana
+        - Sala
+        - Gata
+        correctAnswerIndex: 1
+      - questionText: Antonimo de abierto
+        options:
+        - Cerca
+        - Abajo
+        - Claro
+        - Cerrado
+        correctAnswerIndex: 3
+      - questionText: "Cu\xE1l es la primera consonante del alfabeto ?"
+        options:
+        - A
+        - B
+        - R
+        - Z
+        correctAnswerIndex: 1
+      - questionText: Sombrero rima con
+        options:
+        - Pirata
+        - Tambor
+        - Florero
+        - Agente
+        correctAnswerIndex: 2
+      - questionText: "Cu\xE1ntas letras tiene el alfabeto?"
+        options:
+        - 32
+        - 23
+        - 33
+        - 30
+        correctAnswerIndex: 0
     - name: matematicas
       preguntas:
       - questionText: Figura que tiene 3 lados iguales
@@ -7748,6 +7790,48 @@ MonoBehaviour:
         - 20
         - 7
         correctAnswerIndex: 0
+      - questionText: Continua la serie  2, 4, 6...
+        options:
+        - 8, 10
+        - 7, 8
+        - 8, 9
+        - 5, 3
+        correctAnswerIndex: 0
+      - questionText: Cuanto es  2 + 2 +2
+        options:
+        - 8
+        - 4
+        - 6
+        - 10
+        correctAnswerIndex: 2
+      - questionText: Cuanto es  3 + 3 + 3
+        options:
+        - 9
+        - 6
+        - 8
+        - 3
+        correctAnswerIndex: 0
+      - questionText: Figura con 4 lados iguales
+        options:
+        - "Rect\xE1ngulo"
+        - Cuadrado
+        - Triangulo
+        - Trapecio
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1nto es 1 + 1 + 1 ?"
+        options:
+        - 2
+        - 3
+        - 1
+        - 5
+        correctAnswerIndex: 1
+      - questionText: Si tengo 2 manzanas, cuantas me faltan para tener 6 manzanas
+        options:
+        - 8
+        - 3
+        - 4
+        - 5
+        correctAnswerIndex: 2
     - name: ciencia
       preguntas:
       - questionText: "Por qu\xE9 de noche no se puede ver bien?"
@@ -7820,6 +7904,48 @@ MonoBehaviour:
         - "Jarr\xF3n"
         - Silla
         correctAnswerIndex: 1
+      - questionText: "Cu\xE1ntos dedos tiene tu mano?"
+        options:
+        - 5
+        - 6
+        - 3
+        - 4
+        correctAnswerIndex: 0
+      - questionText: "Las estaciones del a\xF1o son..."
+        options:
+        - "Primavera, Verano, Oto\xF1o, Invierno"
+        - Lunes, Martes, Miercoles, Jueves
+        - Enero, Febrero, Marzo, Abril
+        - "Lunes, Febrero, Oto\xF1o, pan"
+        correctAnswerIndex: 0
+      - questionText: Domingo, Lunes, Martes, Miercoles, Jueves, Viernes y...
+        options:
+        - Junio
+        - Sabado
+        - Domingo
+        - Invierno
+        correctAnswerIndex: 1
+      - questionText: Es un animal marino
+        options:
+        - Ballena
+        - Perro
+        - Loro
+        - Vaca
+        correctAnswerIndex: 0
+      - questionText: NO es un animal marino
+        options:
+        - Sardina
+        - "At\xFAn"
+        - "Tibur\xF3n"
+        - Oso
+        correctAnswerIndex: 3
+      - questionText: Es un animal terrestre
+        options:
+        - Ballena
+        - Tiburon
+        - Anguila
+        - Perro
+        correctAnswerIndex: 3
     - name: etica
       preguntas:
       - questionText: NO corresponde a un acuerdo escolar
@@ -7864,6 +7990,27 @@ MonoBehaviour:
         - Maestro
         - Presidente
         correctAnswerIndex: 1
+      - questionText: "Los colores del sem\xE1foro son..."
+        options:
+        - Amarillo, Verde, Rojo
+        - Verde, Azul, Rojo
+        - Verde Rosa, Rojo
+        - Blanco, Verde, Amarillo
+        correctAnswerIndex: 0
+      - questionText: "Pap\xE1, Mam\xE1 e hijos forman una..."
+        options:
+        - Orquesta
+        - Secta
+        - Familia
+        - Comunidad
+        correctAnswerIndex: 2
+      - questionText: Deporte que puedes hacer en el agua
+        options:
+        - Golf
+        - Futbol
+        - Tennis
+        - Natacion
+        correctAnswerIndex: 3
   - name: dif2
     materias:
     - name: "espa\xF1ol"
@@ -7941,6 +8088,48 @@ MonoBehaviour:
         - Informar
         - Entretener
         correctAnswerIndex: 2
+      - questionText: "\xC9sta es una palabra con dieresis"
+        options:
+        - "M\xE9xico"
+        - "Ping\xFCino"
+        - "Le\xF3n"
+        - Hablar.
+        correctAnswerIndex: 1
+      - questionText: "\xC9sta es una palabra indigena"
+        options:
+        - Chocolate
+        - Wifi
+        - Bagette
+        - Cofre
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntas palabras tiene el enunciado \"Maria tiene dos mu\xF1ecas\""
+        options:
+        - 3
+        - 2
+        - 4
+        - 5
+        correctAnswerIndex: 2
+      - questionText: Esta es una palabra "BISILABA"
+        options:
+        - Sal
+        - Pato
+        - Caballo
+        - Cabeza
+        correctAnswerIndex: 1
+      - questionText: La palabra "Correr" es un...
+        options:
+        - Adjetivo
+        - Verbo
+        - Sustantivo
+        - Adverbio
+        correctAnswerIndex: 1
+      - questionText: "\"Cu\xE1ntos a\xF1os tienes?\" Esta es un enunciado de tipo..."
+        options:
+        - Exclamativo
+        - Interrogativo
+        - Imperativo
+        - Negativo
+        correctAnswerIndex: 1
     - name: matematicas
       preguntas:
       - questionText: "Tengo 4 bolsas de 10 chicles cada una, Cu\xE1ntos chicles
@@ -8036,12 +8225,69 @@ MonoBehaviour:
         - "B\xE1scula"
         - "Term\xF3metro"
         correctAnswerIndex: 0
-      - questionText: "Tengo 20 l\xE1pices y 4 cajas"
+      - questionText: "Tengo 20 l\xE1pices y 4 cajas, Cu\xE1ntos lapices pondr\xEDa
+          en cada caja?"
         options:
         - "5 l\xE1pices"
         - "10 l\xE1pices"
         - "20 l\xE1pices"
         - "2 l\xE1pices"
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos lados tiene un rombo ?"
+        options:
+        - 4
+        - 3
+        - 5
+        - 2
+        correctAnswerIndex: 0
+      - questionText: "10, 20, 30, 40, \xC9sta serie va..."
+        options:
+        - De 2 en 2
+        - De 20 en 20
+        - De 10 en 10
+        - De 11 en 11
+        correctAnswerIndex: 2
+      - questionText: "Cu\xE1nto es 3 x 7"
+        options:
+        - 18
+        - 21
+        - 20
+        - 10
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1nto son 2 decenas y 5 unidades"
+        options:
+        - 7
+        - 52
+        - 205
+        - 25
+        correctAnswerIndex: 3
+      - questionText: "Cu\xE1ntas centenas tiene el n\xFAmero 358"
+        options:
+        - 3
+        - 5
+        - 8
+        - 358
+        correctAnswerIndex: 0
+      - questionText: Con este sentido puedes percibir olores
+        options:
+        - Gusto
+        - Tacto
+        - Oido
+        - Olfato
+        correctAnswerIndex: 3
+      - questionText: "Cu\xE1nto es 2 x 4"
+        options:
+        - 9
+        - 8
+        - 6
+        - 2
+        correctAnswerIndex: 1
+      - questionText: 14 es el resultado de...
+        options:
+        - 2 x 7
+        - 2 x 6
+        - 3 x 3
+        - 5 x 3
         correctAnswerIndex: 0
     - name: ciencia
       preguntas:
@@ -8101,6 +8347,34 @@ MonoBehaviour:
         - Casa
         - Ropa
         correctAnswerIndex: 1
+      - questionText: El hielo es agua en estado...
+        options:
+        - Solido
+        - Liquido
+        - Plasma
+        - Gaseoso
+        correctAnswerIndex: 0
+      - questionText: "\xC9ste alimento tiene sabor salado"
+        options:
+        - Palomitas
+        - Pastel
+        - "Lim\xF3n"
+        - Chile
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l es la estrella m\xE1s grande del sistema solar"
+        options:
+        - Luna
+        - Sol
+        - Marte
+        - Neptuno
+        correctAnswerIndex: 1
+      - questionText: "C\xF3mo se le llaman a los animales que comen carne"
+        options:
+        - Omnivoros
+        - Hervivoros
+        - Carnivoros
+        - Insectivoros
+        correctAnswerIndex: 2
     - name: etica
       preguntas:
       - questionText: "Grupo de personas que las une un mismo v\xEDnculo?"
@@ -8203,6 +8477,27 @@ MonoBehaviour:
         - Escuchar atentamente
         - Cerrar los ojos
         correctAnswerIndex: 2
+      - questionText: "La mam\xE1 de mi mam\xE1 es mi..."
+        options:
+        - Tia
+        - Comadre
+        - "Mam\xE1"
+        - Abuela
+        correctAnswerIndex: 3
+      - questionText: "Es un platillo t\xEDpico mexicano"
+        options:
+        - Pizza
+        - Tacos
+        - Sushi
+        - Spaggetti
+        correctAnswerIndex: 1
+      - questionText: Documento que te dan al nacer
+        options:
+        - Pasaporte
+        - Acta de matrimonio
+        - INE
+        - Acta de nacimiento
+        correctAnswerIndex: 3
   - name: dif3
     materias:
     - name: "espa\xF1ol"
@@ -8292,6 +8587,42 @@ MonoBehaviour:
         - Pasado
         - Presente
         correctAnswerIndex: 0
+      - questionText: Es una palabra aguda
+        options:
+        - "Coraz\xF3n"
+        - "J\xEDcama"
+        - Pelota
+        - "M\xE9xico"
+        correctAnswerIndex: 0
+      - questionText: "En este enunciado, \"La ni\xF1a traviesa juega en el campo\",
+          cu\xE1l es el adjetivo?"
+        options:
+        - Traviesa
+        - "Ni\xF1a"
+        - Juega
+        - Campo
+        correctAnswerIndex: 0
+      - questionText: "Texto en d\xF3nde puedes leer una reseta de cocina"
+        options:
+        - Recetario
+        - Manual
+        - Encuesta
+        - Revista
+        correctAnswerIndex: 0
+      - questionText: "En que tiempo est\xE1 la palabra \"Correr\xE9\""
+        options:
+        - Futuro
+        - Pasado
+        - Presente
+        - Preterito
+        correctAnswerIndex: 0
+      - questionText: "\xC9sta es una palabra grave "
+        options:
+        - "Az\xFAcar"
+        - "Bomb\xF3n"
+        - "Capit\xE1n"
+        - "M\xE1s"
+        correctAnswerIndex: 0
     - name: matematicas
       preguntas:
       - questionText: "\xC1ngulo que tiene 90 grados"
@@ -8357,6 +8688,70 @@ MonoBehaviour:
         - 7
         - 10
         correctAnswerIndex: 1
+      - questionText: "Cu\xE1ntos lados tiene un hexagono?"
+        options:
+        - 5
+        - 6
+        - 8
+        - 2
+        correctAnswerIndex: 1
+      - questionText: "El n\xFAmero 254 se escibe as\xED"
+        options:
+        - Doscientos cincuenta y cuatro
+        - Dosientos cincuenta y cuatro
+        - Doscientos sincuenta y cuatro
+        - Doszientos cinkuenta y cuatro
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos medios tiene un entero?"
+        options:
+        - 2
+        - 4
+        - 1
+        - 1/2
+        correctAnswerIndex: 0
+      - questionText: "Si tienes 20 galletas y 5 cajas, cu\xE1ntas pones en cada
+          caja?"
+        options:
+        - 4
+        - 20
+        - 5
+        - 25
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 unidad usas para medir una puerta?"
+        options:
+        - Metros
+        - Litros
+        - Galones
+        - Kilos
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos dedos tienes en total?"
+        options:
+        - 20
+        - 21
+        - 10
+        - 5
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos centimetros tiene un metro? "
+        options:
+        - 100
+        - 10
+        - 1000
+        - 200
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos mililitros tiene un litro?"
+        options:
+        - 1000
+        - 100
+        - 1
+        - 2000
+        correctAnswerIndex: 0
+      - questionText: Los liquidos los mides con
+        options:
+        - Litros
+        - Metros
+        - Kilos
+        - Millas
+        correctAnswerIndex: 0
     - name: ciencia
       preguntas:
       - questionText: "Forma gr\xE1fica como se pueden representar los espacios geogrefica"
@@ -8423,6 +8818,49 @@ MonoBehaviour:
         - Viviparos
         - Anfibios
         correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos meses tiene el a\xF1o?"
+        options:
+        - 12
+        - 14
+        - 31
+        - 7
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntas horas tiene un dia?"
+        options:
+        - 60
+        - 12
+        - 24
+        - 365
+        correctAnswerIndex: 2
+      - questionText: "Cu\xE1ntos dias tiene el a\xF1o?"
+        options:
+        - 360
+        - 365
+        - 24
+        - 60
+        correctAnswerIndex: 1
+      - questionText: Alimento de origen animal
+        options:
+        - Papas
+        - Uvas
+        - Leche
+        - Azucar
+        correctAnswerIndex: 2
+      - questionText: Es un recurso renovable
+        options:
+        - Agua
+        - Madera
+        - Petroleo
+        - Gasolina
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1nto tiempo tarda el movimiento de rotaci\xF3n de la
+          tierra?"
+        options:
+        - 24 horas
+        - 365 dias
+        - 12 horas
+        - 12 meses
+        correctAnswerIndex: 0
     - name: etica
       preguntas:
       - questionText: "Interacci\xF3n y respetuosa con otras personas es..."
@@ -8468,6 +8906,20 @@ MonoBehaviour:
         - "Espa\xF1ol, Ingles, Franc\xE9s"
         - "Lat\xEDn, Griego, Romano"
         - Hyliano, Simlish, Khajiita
+        correctAnswerIndex: 0
+      - questionText: "Quienes conquistaron M\xE9xico?"
+        options:
+        - "Espa\xF1oles"
+        - Ingleses
+        - Americanos
+        - Japoneses
+        correctAnswerIndex: 0
+      - questionText: "Es un derecho de los ni\xF1os"
+        options:
+        - Acceso a la educaciom
+        - Irse a chambear
+        - "Jugar todo el d\xEDa"
+        - Domrir tarde
         correctAnswerIndex: 0
   - name: dif4
     materias:
@@ -8546,6 +8998,71 @@ MonoBehaviour:
         - Mural
         - Cuento
         correctAnswerIndex: 3
+      - questionText: Tiene inicio, desarrollo y final
+        options:
+        - Cuento
+        - Texto
+        - Noticia
+        - Poema
+        correctAnswerIndex: 0
+      - questionText: Cuando los anuncios quieren vender un producto se le llama
+        options:
+        - Publicidad
+        - Anuncio publicitario
+        - Propaganda
+        - Anuncio comercial
+        correctAnswerIndex: 1
+      - questionText: "\xC9ste texto lleva remitente, saludo, fecha, despedida y
+          destinatario"
+        options:
+        - Receta
+        - "Tr\xEDptico"
+        - Cuento
+        - Carta
+        correctAnswerIndex: 3
+      - questionText: "Consiste en decir c\xF3mo es un lugar, persona, cosa o animal"
+        options:
+        - "Narraci\xF3n"
+        - Adivinanza
+        - Cuento
+        - "Descripci\xF3n"
+        correctAnswerIndex: 3
+      - questionText: Son pronombres personales
+        options:
+        - Yo, tu, el, ella, nosotros
+        - Crosher, Pepe, Wichard
+        - Arriba, abajo, derecha
+        - Este, Esta, Aquella
+        correctAnswerIndex: 0
+      - questionText: Es un ejemplo de nombre propio
+        options:
+        - "M\xF3nica"
+        - borrego
+        - carretera
+        - silla
+        correctAnswerIndex: 2
+      - questionText: "El enunciado \"To\xF1o har\xE1 la tarea\" en que tiempo se
+          encuentra?"
+        options:
+        - Futuro
+        - Pasado
+        - Presente
+        - Preterito
+        correctAnswerIndex: 0
+      - questionText: Es uno de los recursos que ocupan los chistes para sar risa
+        options:
+        - Juegos de gestos
+        - Juegos de oraciones
+        - Juegos de verbos
+        - Juegos de palabras
+        correctAnswerIndex: 3
+      - questionText: Signos que se utilizan para realizar preguntas
+        options:
+        - "Interrogaci\xF3n"
+        - "Exlamaci\xF3n"
+        - "Puntuaci\xF3n"
+        - "Iteraci\xF3n"
+        correctAnswerIndex: 0
     - name: matematicas
       preguntas:
       - questionText: Nombre de la figura que tiene 6 lados iguales?
@@ -8634,6 +9151,48 @@ MonoBehaviour:
         - 46
         - 34
         correctAnswerIndex: 0
+      - questionText: "1\xB0, 5\xB0, 10\xB0 Son ejemplos de n\xFAmeros... "
+        options:
+        - Ordinales
+        - Romanos
+        - Arabigos
+        - Primos
+        correctAnswerIndex: 0
+      - questionText: 8964 en notacion desarrollada
+        options:
+        - 800+9+60+4
+        - 8000+90+60+4
+        - 8000+900+60+4
+        - 80+9000+60+4
+        correctAnswerIndex: 2
+      - questionText: Determina el area de un cuadrado que mide 15x2.5
+        options:
+        - 36.5
+        - 38.5
+        - 37.5
+        - 37
+        correctAnswerIndex: 2
+      - questionText: 2/6 + 3/6 =
+        options:
+        - 5/6
+        - 6/6
+        - 1/6
+        - 7/6
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos grados mide el \xE1ngulo recto"
+        options:
+        - "90\xB0"
+        - "45\xB0"
+        - "180\xB0"
+        - "360\xB0"
+        correctAnswerIndex: 0
+      - questionText: "Es un ejemplo de n\xFAmero romano"
+        options:
+        - ZT
+        - XV
+        - 111
+        - GFD
+        correctAnswerIndex: 0
     - name: ciencia
       preguntas:
       - questionText: "Su funci\xF3n es transformar alimentos en nutrimentos para
@@ -8707,6 +9266,62 @@ MonoBehaviour:
         - "Contaminaci\xF3n del agua"
         - "Contaminaci\xF3n del suelo"
         - "Contaminaci\xF3n del aire"
+        correctAnswerIndex: 0
+      - questionText: Flora y fauna del desierto
+        options:
+        - "C\xE1ctus y Camellos"
+        - Palmera y Cangrejos
+        - Arboles y Tucanes
+        - Arboles y vacas
+        correctAnswerIndex: 0
+      - questionText: Animal mamifero que puede vivir en el agua
+        options:
+        - Delfin
+        - "Camar\xF3n"
+        - Tortuga
+        - Cangrejo
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 pasar\xEDa si no hubiera gravedad?"
+        options:
+        - Nada
+        - "Flotar\xEDamos"
+        - "No te mover\xEDas"
+        - Todos se caen
+        correctAnswerIndex: 1
+      - questionText: "Qu\xE9 es la biodiversidad ?"
+        options:
+        - Amplia variedad de seres en la tierra
+        - Animales en peligro de extincion
+        - Plantas exoticas
+        - Conjunto de personas en paises
+        correctAnswerIndex: 0
+      - questionText: El agua salada se encuentra en...
+        options:
+        - Mares
+        - Rios
+        - Charcos
+        - Albercas
+        correctAnswerIndex: 0
+      - questionText: Las nubes son ejemplo de agua en estado...
+        options:
+        - Plasmatico
+        - Solido
+        - Liquido
+        - Gaseoso
+        correctAnswerIndex: 3
+      - questionText: Aparato que sirve para orientarse
+        options:
+        - "Br\xFAjula"
+        - GPS
+        - Globo terraqueo
+        - Mapa
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 marca la manecilla peque\xF1a del reloj?"
+        options:
+        - Horas
+        - Segundos
+        - Minutos
+        - Dias
         correctAnswerIndex: 0
     - name: etica
       preguntas:
@@ -8785,21 +9400,55 @@ MonoBehaviour:
         - "T\xEDo"
         - Sobrina
         correctAnswerIndex: 0
+      - questionText: Servicio que consiste en la compra y venta de productos
+        options:
+        - Comercio
+        - Construccion
+        - Agricultura
+        - Transporte
+        correctAnswerIndex: 0
+      - questionText: La mejor herramienta para resolver conflictos
+        options:
+        - Empatia
+        - Dialogo
+        - Discucion
+        - Ignorar al otro
+        correctAnswerIndex: 1
+      - questionText: "Es la autoridad que determina en un juicio quien tiene la
+          raz\xF3n"
+        options:
+        - Sacerdote
+        - Policia
+        - Juez
+        - Maestro
+        correctAnswerIndex: 2
+      - questionText: "Por d\xF3nde se cree que cruzaron los primero pobladores de
+          Asia a America"
+        options:
+        - Estrecho de Bering
+        - "Canal de Panam\xE1"
+        - Alaska
+        - Muralla china
+        correctAnswerIndex: 0
   - name: dif5
     materias:
+    - name: "espa\xF1ol"
+      preguntas: []
     - name: matematicas
       preguntas: []
-    - name: historia
-      preguntas: []
     - name: ciencia
+      preguntas: []
+    - name: etica
       preguntas: []
   - name: dif6
     materias:
+    - name: "espa\xF1ol"
+      preguntas: []
     - name: matematicas
       preguntas: []
-    - name: historia
-      preguntas: []
     - name: ciencia
+      preguntas: []
+    - name: etica
       preguntas: []
 --- !u!1 &1167302133
 GameObject:
