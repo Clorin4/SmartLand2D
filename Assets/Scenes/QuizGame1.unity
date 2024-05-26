@@ -8523,6 +8523,29 @@ MonoBehaviour:
         - Ponte a hacer la tarea
         - Quieres hacer la tarea?
         correctAnswerIndex: 0
+      - questionText: "Tipo de texto que emplea el lenguaje de forma est\xE9tica"
+        options:
+        - "Poes\xEDa"
+        - Teatro
+        - Mural
+        - Cuento
+        correctAnswerIndex: 0
+      - questionText: "G\xE9nero literario que est\xE1 pensado para ser representado
+          en publico"
+        options:
+        - "Poes\xEDa"
+        - Teatro
+        - Mural
+        - Cuento
+        correctAnswerIndex: 1
+      - questionText: Son narraciones breves de de una historia basada en hechos
+          reales o ficticios
+        options:
+        - "Poes\xEDa"
+        - Teatro
+        - Mural
+        - Cuento
+        correctAnswerIndex: 3
     - name: matematicas
       preguntas:
       - questionText: 
@@ -8543,12 +8566,73 @@ MonoBehaviour:
         correctAnswerIndex: 0
     - name: etica
       preguntas:
-      - questionText: 
+      - questionText: Consiste en comprender el pensamiento y las emociones de la
+          otra persona
         options:
-        - 
-        - 
-        - 
-        - 
+        - Escuchar
+        - Entendimiento mutuo
+        - "Negociaci\xF3n"
+        - Convivencia
+        correctAnswerIndex: 0
+      - questionText: "Es un modo de resolver pacificamente los conflictos por medio
+          de la comunicaci\xF3n"
+        options:
+        - Escuchar
+        - Entendimiento mutuo
+        - "Negociaci\xF3n"
+        - Convivencia
+        correctAnswerIndex: 2
+      - questionText: "Es la acci\xF3n de coexistir, de manera respetuosa y armoniosa
+          con otras personas"
+        options:
+        - Escuchar
+        - Entendimiento mutuo
+        - "Negociaci\xF3n"
+        - Convivencia
+        correctAnswerIndex: 3
+      - questionText: Ocurren cuando las personas no se les trata con respeto ni
+          les hacen valer sus derechos
+        options:
+        - Injusticia
+        - Imagen corporal
+        - Identidad cultural
+        - Vida saludable
+        correctAnswerIndex: 0
+      - questionText: "Es una actividad laboral que requiere formaci\xF3n acad\xE9mica "
+        options:
+        - "Profesi\xF3n"
+        - Oficio
+        - Servicio social
+        - "Servicio p\xFAblico"
+        correctAnswerIndex: 0
+      - questionText: Es el tipo de familia formada por padre, madre, e hijos
+        options:
+        - 'Familia nuclear '
+        - Fmilia extendida
+        - Familia moderna
+        - Familia monoparental
+        correctAnswerIndex: 0
+      - questionText: "Forma parte del conocimiento que va pasando de generaci\xF3n
+          en generaci\xF3n"
+        options:
+        - Costumbres y tradiciones
+        - Juegos violentos
+        - "Identidad gastron\xF3mica"
+        - Tradicion oral
+        correctAnswerIndex: 0
+      - questionText: Es una actividad laboral que no requiere de estudios previos
+        options:
+        - Oficio
+        - "Profesi\xF3n"
+        - Servicio social
+        - "Servicio p\xFAblico"
+        correctAnswerIndex: 0
+      - questionText: "Es todo aquello que se realiza mediante un dispositivo electr\xF3nico"
+        options:
+        - Oficio
+        - "Profesi\xF3n"
+        - Servicio social
+        - "Servicio p\xFAblico"
         correctAnswerIndex: 0
   - name: dif5
     materias:
