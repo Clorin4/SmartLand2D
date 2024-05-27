@@ -9465,30 +9465,347 @@ MonoBehaviour:
         - Encuesta
         - "Infograf\xEDa"
         correctAnswerIndex: 2
-      - questionText: "Instrumento que sirve para la recolecci\xF3n de datos"
+      - questionText: "Es se\xF1alar o enumerar las caracter\xEDsticas de un objeto,
+          paisaje o persona"
         options:
-        - Anuncio
-        - Noticia
+        - "Descripci\xF3n"
+        - "Narraci\xF3n"
         - Encuesta
-        - "Infograf\xEDa"
+        - Resumen
+        correctAnswerIndex: 0
+      - questionText: "Tipo de texto en el que la informaci\xF3n se estructura de
+          manera organizada y relevante"
+        options:
+        - Texto argumentativo
+        - Texto narrativo
+        - Texto continuo
+        - Texto discontinuo
+        correctAnswerIndex: 0
+      - questionText: "G\xE9nero literario que narra una historia dividida en capitulos"
+        options:
+        - Novela
+        - "Poes\xEDa"
+        - Leyenda
+        - Cuento
+        correctAnswerIndex: 0
+      - questionText: "G\xE9nero narrativo compuesto por: Tema, estructura, personajes
+          y narrador"
+        options:
+        - Novela
+        - "Poes\xEDa"
+        - Leyenda
+        - Cuento
+        correctAnswerIndex: 3
+      - questionText: Forma parte de la identidad cultural
+        options:
+        - Novela
+        - "Poes\xEDa"
+        - Leyenda
+        - Cuento
         correctAnswerIndex: 2
+      - questionText: "Esta palabra est\xE1 escrita en gerundio"
+        options:
+        - Caminando
+        - Correr
+        - "Cantar\xE1"
+        - Pegar
+        correctAnswerIndex: 0
+      - questionText: Palabras que nombran personas, animales u objetos en general
+        options:
+        - Sustantivos comunes
+        - Verbos
+        - Adjetivos
+        - Pronombres
+        correctAnswerIndex: 0
+      - questionText: "C\xF3mo se le lama al personaje principal"
+        options:
+        - Protagonista
+        - Antagonista
+        - Extra
+        - Secundario
+        correctAnswerIndex: 0
+      - questionText: Texto que relata la vida de una persona
+        options:
+        - "Biograf\xEDa"
+        - "Autobiograf\xEDa"
+        - Soneto
+        - Cuento
+        correctAnswerIndex: 0
+      - questionText: "C\xF3mo se escriben los telegramas ?"
+        options:
+        - Clave morse
+        - Clave de sol
+        - "Taquigraf\xEDa"
+        - Manuscrita
+        correctAnswerIndex: 0
     - name: matematicas
       preguntas:
-      - questionText: 
+      - questionText: Linea que divide una figura en dos lados iguales
         options:
-        - 
-        - 
-        - 
-        - 
+        - "Eje de simetr\xEDa"
+        - "L\xEDnea del tiempo"
+        - Eje central
+        - "L\xEDnea divisora"
+        correctAnswerIndex: 0
+      - questionText: Son figuras que cuentan con ancho, altura y profundidad
+        options:
+        - "Cuerpos geom\xE9tricos"
+        - "Eje de simetr\xEDa"
+        - "Figuras geom\xE9tricas"
+        - Formas
+        correctAnswerIndex: 0
+      - questionText: Resultado de 20000 + 4000 + 700 + 30 + 9
+        options:
+        - 24739
+        - 93742
+        - 24709
+        - 240739
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntas caras iguales tiene un cubo?"
+        options:
+        - 6 caras
+        - 8 caras
+        - 4 caras
+        - 12 caras
+        correctAnswerIndex: 0
+      - questionText: Figura con 2 lados iguales y 1 lado desigual
+        options:
+        - "Tri\xE1ngulo is\xF3sceles"
+        - "Tri\xE1ngulo rect\xE1ngulo"
+        - "Tri\xE1ngulo escaleno"
+        - "Tri\xE1ngulo equil\xE1tero"
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos helados vendiste si ganaste 300 pesos y el helado
+          cuesta 10 pesos?"
+        options:
+        - 30 helados
+        - 20 helados
+        - 10 helados
+        - 40 helados
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos ejes de simetr\xEDa tiene un rombo?"
+        options:
+        - 2 ejes
+        - 4 ejes
+        - 5 ejes
+        - 3.5 ejes
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos metros tiene un kilometro?"
+        options:
+        - 1000 metros
+        - 100 metros
+        - 50 metros
+        - 15 metros
+        correctAnswerIndex: 0
+      - questionText: "Notaci\xF3n desarrollada de 45,638"
+        options:
+        - 40,000 + 5,000 + 600 + 30 + 8
+        - 80,000 + 3,000 + 600 + 50 + 4
+        - 800 + 30 + 60 + 5000 + 40
+        - 8 + 30,000 + 600 + 50 + 4000
+        correctAnswerIndex: 0
+      - questionText: "A cu\xE1nto equivale .75 en fraccion"
+        options:
+        - 3/4
+        - 1/3
+        - 7/8
+        - 7/5
+        correctAnswerIndex: 0
+      - questionText: "Ejemplo de n\xFAmero romano"
+        options:
+        - CV
+        - DF
+        - 123
+        - JKL
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos a\xF1os tiene una d\xE9cada?"
+        options:
+        - 10
+        - 100
+        - 1
+        - 5
+        correctAnswerIndex: 0
+      - questionText: "A cu\xE1nto equivale pi ?"
+        options:
+        - 3.1459
+        - 3.1614
+        - 3.1415
+        - 3.1537
+        correctAnswerIndex: 0
+      - questionText: "F\xF3rmula para sacar el \xE1rea del tri\xE1ngulo"
+        options:
+        - (b x h)/2
+        - (b x h)/3
+        - (b + h)/2
+        - (b - h)/3
+        correctAnswerIndex: 0
+      - questionText: 8 x 12 =
+        options:
+        - 96
+        - 16
+        - 86
+        - 80
+        correctAnswerIndex: 0
+      - questionText: "Si corres 75 km en 3 horas, cu\xE1ntos kilometros recorrer\xE1s
+          en 5 horas?"
+        options:
+        - 125 km
+        - 100 km
+        - 150 km
+        - 50 km
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1l es el \xE1rea de un terreno que mide 5 x 12 metros"
+        options:
+        - 60 m
+        - 48 m
+        - 50 m
+        - 120 m
         correctAnswerIndex: 0
     - name: ciencia
       preguntas:
-      - questionText: 
+      - questionText: Es el encargado de bombear y hacer circular la sangre
         options:
-        - 
-        - 
-        - 
-        - 
+        - "Coraz\xF3n"
+        - "Ri\xF1on"
+        - Pulmones
+        - Traquea
+        correctAnswerIndex: 0
+      - questionText: "En ellos se reunen el aire para filtrar y absorver el ox\xEDgeno
+          necesario para el cuerpo"
+        options:
+        - "Coraz\xF3n"
+        - "Ri\xF1on"
+        - Pulmones
+        - Traquea
+        correctAnswerIndex: 2
+      - questionText: "Es un proceso biol\xF3gico cuya finalidad es la formaci\xF3n
+          de un nuevo individuo"
+        options:
+        - "Reproducci\xF3n"
+        - "Evoluci\xF3n"
+        - Adolecencia
+        - Patrimonio
+        correctAnswerIndex: 0
+      - questionText: Son las celulas sexuales femeninas producidas en los ovarios
+        options:
+        - Ovulo
+        - "Fecundaci\xF3n"
+        - Embarazo
+        - Espermatozoide
+        correctAnswerIndex: 0
+      - questionText: "Son las celulas sexuales masculinas producidas en los test\xEDculos"
+        options:
+        - Ovulo
+        - "Fecundaci\xF3n"
+        - Embarazo
+        - Espermatozoide
+        correctAnswerIndex: 3
+      - questionText: "Sistema encargado de llevar ox\xEDgeno a la sangre"
+        options:
+        - Sistema respiratorio
+        - Sistema nervioso
+        - Sistema digestivo
+        - "Sistema \xF3seo"
+        correctAnswerIndex: 0
+      - questionText: Es la variedad de seres vivos que habitan en un espacio determinado
+        options:
+        - Biodiversidad
+        - Ecosistema
+        - "Biolog\xEDa"
+        - Fauna
+        correctAnswerIndex: 0
+      - questionText: Microorganismos que no se pueden ver a simple vista y son del
+          reino "Monera"
+        options:
+        - Bacterias
+        - Hongos
+        - Microorganismo
+        - Protozuarios
+        correctAnswerIndex: 0
+      - questionText: "Organismos que se alimentan de materia en descomposici\xF3n"
+        options:
+        - Bacterias
+        - Hongos
+        - Microorganismo
+        - Protozuarios
+        correctAnswerIndex: 1
+      - questionText: "C\xF3mo se le llama al alto nivel de concentraci\xF3n de sustancias
+          no deseables"
+        options:
+        - "Contaminaci\xF3n"
+        - Biodiversidad
+        - Ecosistema
+        - "Biolog\xEDa"
+        correctAnswerIndex: 0
+      - questionText: Que sucede cuando un espermatozoide llega al ovulo?
+        options:
+        - Ocurre una ETS
+        - Ligero malestar
+        - Ocurre la fecundacion
+        - Ocasiona alergias
+        correctAnswerIndex: 2
+      - questionText: Consecuencias medicas del consumo de alcohol y tabaco
+        options:
+        - Violencia
+        - Cancer y bronquitis
+        - Dolor de cabeza
+        - Alucinaciones
+        correctAnswerIndex: 1
+      - questionText: "Cu\xE1ntos continentes tiene la tierra?"
+        options:
+        - 6
+        - 7
+        - 4
+        - 8
+        correctAnswerIndex: 0
+      - questionText: "Qui\xE9n invent\xF3 la pasteurizacion"
+        options:
+        - Luis Pasteur
+        - Marie Curie
+        - Los Pastores
+        - "S\xF3crates"
+        correctAnswerIndex: 0
+      - questionText: Las mesetas son ejemplos de...
+        options:
+        - Relieves
+        - "Decoraci\xF3n"
+        - Flora y Fauna
+        - Campos
+        correctAnswerIndex: 0
+      - questionText: A que edad aproximadamente inicia la pubertad ?
+        options:
+        - "12 a\xF1os"
+        - "10 a\xF1os"
+        - "18 a\xF1os"
+        - "30 a\xF1os"
+        correctAnswerIndex: 0
+      - questionText: Papa, torilla, arroz, pan son ejemplos de
+        options:
+        - Cereales y tuberculos
+        - Leguminosas
+        - Frutas y verduras
+        - Origen animal
+        correctAnswerIndex: 0
+      - questionText: "\xD3rgano principal del sistema nervioso"
+        options:
+        - Cerebro
+        - "M\xE9dula espinal"
+        - "Tr\xE1quea"
+        - Esofago
+        correctAnswerIndex: 0
+      - questionText: Era en la que desaparecieron los dinosaurios
+        options:
+        - "Cret\xE1cico"
+        - Prehistorico
+        - Mesosoica
+        - Aridoamerica
+        correctAnswerIndex: 0
+      - questionText: "Qui\xE9n fu\xE9 el primer hombre en pisar la luna?"
+        options:
+        - Neil Armstrong
+        - Luis Miguel
+        - Benito Juarez
+        - Jhon F Kenedy
         correctAnswerIndex: 0
     - name: etica
       preguntas:
@@ -9538,16 +9855,267 @@ MonoBehaviour:
         - Afro descendientes
         - "Ind\xEDgenas"
         correctAnswerIndex: 0
+      - questionText: Conjunto de principios que ayuda a las personas a analizar
+          y entender las reglas de la comunidad fundadas en valores morales
+        options:
+        - "\xC9tica"
+        - Estereotipos
+        - "Discriminaci\xF3n"
+        - Acuerdos
+        correctAnswerIndex: 0
+      - questionText: "Es tratar a otros como inferiores, en raz\xF3n de alg\xFAn
+          atributo de la persona"
+        options:
+        - "\xC9tica"
+        - Estereotipos
+        - "Discriminaci\xF3n"
+        - Acuerdos
+        correctAnswerIndex: 2
+      - questionText: Son opiniones o ideas que limitan la capacidad para reconocer
+          a las personas objetivamente
+        options:
+        - Prejuicios
+        - Estereotipos
+        - "Discriminaci\xF3n"
+        - Violencia
+        correctAnswerIndex: 0
+      - questionText: "Movimiento de personas que dejan su lugar de origen para vivir
+          en otro pa\xEDs"
+        options:
+        - "Migraci\xF3n"
+        - "Colonizaci\xF3n"
+        - "Inclusi\xF3n"
+        - "Alteraci\xF3n"
+        correctAnswerIndex: 0
+      - questionText: Es el derecho que tenemos a ser respetados
+        options:
+        - Equidad
+        - Libertad
+        - Dignidad humana
+        - Expresion
+        correctAnswerIndex: 0
+      - questionText: Es el derecho que tenemos a ser respetados
+        options:
+        - Equidad
+        - Libertad
+        - Dignidad humana
+        - Expresion
+        correctAnswerIndex: 0
   - name: dif6
     materias:
     - name: "espa\xF1ol"
-      preguntas: []
+      preguntas:
+      - questionText: Es un verbo en infinitivo
+        options:
+        - Pasear
+        - Joven
+        - Alegre
+        - "Sali\xF3"
+        correctAnswerIndex: 0
+      - questionText: Es un adverbio
+        options:
+        - Pasear
+        - Joven
+        - Alegre
+        - "Sali\xF3"
+        correctAnswerIndex: 2
+      - questionText: 'Las dos formas de usar el lenguaje son:'
+        options:
+        - Formal / Informal
+        - Oral / Formal
+        - Informal / Escrito
+        - Popular / Coloquial
+        correctAnswerIndex: 0
+      - questionText: Palabras que suenan igual, pero tienen diferente significado
+        options:
+        - Homofonas
+        - Sinonimos
+        - Homonimos
+        - Anemona
+        correctAnswerIndex: 0
+      - questionText: Es una palabra cuatrisilaba
+        options:
+        - Renacuajo
+        - "Camale\xF3n"
+        - Avestruz
+        - Caliente
+        correctAnswerIndex: 0
+      - questionText: "En d\xF3nde llevan el acento las palabras esdr\xFAjulas"
+        options:
+        - "En la antepen\xFAltima s\xEDlaba"
+        - "En la pen\xFAltima s\xEDlaba"
+        - "En la \xFAltima s\xEDlaba"
+        - "En la ante-antepen\xFAltima s\xEDlaba"
+        correctAnswerIndex: 0
+      - questionText: "\xC9sta palabra tiene diptongo"
+        options:
+        - Ciudad
+        - Wi-fi
+        - Cohete
+        - "Climatol\xF3gico"
+        correctAnswerIndex: 0
     - name: matematicas
-      preguntas: []
+      preguntas:
+      - questionText: "N\xFAmero que se forma con 30000 + 7000 + 500 + 60 + 9"
+        options:
+        - 37569
+        - 96573
+        - 307569
+        - 56379
+        correctAnswerIndex: 0
+      - questionText: "Pol\xEDgono que tiene dos bases ocho caras 12 y 18 aristas"
+        options:
+        - Prisma hexagonal
+        - Prisma octagonal
+        - Prisma rectangular
+        - Prisma triangular
+        correctAnswerIndex: 0
+      - questionText: "Representaci\xF3n decimal de 1/4"
+        options:
+        - 0.25
+        - 0.5
+        - 0.333
+        - 0.75
+        correctAnswerIndex: 0
+      - questionText: "1250 gramos a cu\xE1ntos kilos equivalen"
+        options:
+        - 1.25 kilos
+        - 0.1250 kilos
+        - 12.50 kilos
+        - 0.0125 kilos
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1les son multiplos de 8"
+        options:
+        - 16, 24, 32
+        - ocho pinocho
+        - 14, 21, 28
+        - 16, 23, 40
+        correctAnswerIndex: 0
+      - questionText: "N\xFAmeros que al multiplicarlos te den 162"
+        options:
+        - 2, 81
+        - 60, 3
+        - 12, 14
+        - 16, 10
+        correctAnswerIndex: 0
+      - questionText: "A cu\xE1ntos km\xB2 equivalen una Hect\xE1rea"
+        options:
+        - 100
+        - 10
+        - 120
+        - 1000
+        correctAnswerIndex: 0
+      - questionText: "A cu\xE1ntos km equivale un Hect\xF3metro"
+        options:
+        - 10
+        - 100
+        - 120
+        - 1000
+        correctAnswerIndex: 0
+      - questionText: Unidad de medida para representar el volumen
+        options:
+        - "m\xB3"
+        - m
+        - "m\xB2"
+        - "cm\xB2"
+        correctAnswerIndex: 0
+      - questionText: 34 x 5 =
+        options:
+        - 170
+        - 120
+        - 340
+        - 210
+        correctAnswerIndex: 0
     - name: ciencia
-      preguntas: []
+      preguntas:
+      - questionText: "Cu\xE1l es la regla de las 3 R\xB4s"
+        options:
+        - Reducir, Reutilizar, Reciclar
+        - Reducir, Reusar, Rechazar
+        - Tapa, Lava, Voltea y Tira
+        - Retirar, Reciclar, Remover
+        correctAnswerIndex: 0
+      - questionText: "Es un ejemplo de m\xE1quina simple"
+        options:
+        - La polea
+        - El fuego
+        - La impresora
+        - La estufa
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1ntos equinoxios se producen al a\xF1os?"
+        options:
+        - 2
+        - 12
+        - 24
+        - 1
+        correctAnswerIndex: 0
+      - questionText: "S\xEDmbolo que muestra los 4 puntos cardinales"
+        options:
+        - Rosa de los vientos
+        - "Estrella de Bel\xE9n"
+        - "Se\xF1ales de tr\xE1nsito"
+        - Rosa de Guadalupe
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 ocasion\xF3 la extinsion de los dinosaurios"
+        options:
+        - Meteorito
+        - Tsunami
+        - "Erupci\xF3n volcanica"
+        - Calentamiento global
+        correctAnswerIndex: 0
+      - questionText: "Por qu\xE9 se descongelan los polos ?"
+        options:
+        - Calentamiento Global
+        - Tsunami
+        - Porque tienen calor
+        - Por la rotacion de la tierra
+        correctAnswerIndex: 0
     - name: etica
-      preguntas: []
+      preguntas:
+      - questionText: "Campa\xF1as militares organizadas por los papas y las potencias
+          cristianas occidentales para la toma de Jerusalen y la tierra santa"
+        options:
+        - Cruzadas
+        - Independencia
+        - Guerra fria
+        - "Santa inquisici\xF3n"
+        correctAnswerIndex: 0
+      - questionText: "As\xED se le llamaba a los pueblos que iban de un lugar a
+          otro"
+        options:
+        - "N\xF3madas"
+        - Sedentarios
+        - Viajeros
+        - Caravanas
+        correctAnswerIndex: 0
+      - questionText: "Es un ejemplo de actividad econ\xF3mica"
+        options:
+        - Agricultura
+        - Estudio
+        - Leer
+        - Dormir
+        correctAnswerIndex: 0
+      - questionText: "Organizaci\xF3n encargada de mantener la paz y seguridad internacional "
+        options:
+        - ONU
+        - OMS
+        - ISSTE
+        - UNICEF
+        correctAnswerIndex: 0
+      - questionText: "Qu\xE9 se debe de hacer en caso de un sismo"
+        options:
+        - No corro, No grito y empujo
+        - No correr, No gritar, No empujar
+        - Tomar el elevador
+        - Esconderse en la estufa
+        correctAnswerIndex: 0
+      - questionText: "Poblaci\xF3n que cuenta con servicios y medios de transporte"
+        options:
+        - "Poblaci\xF3n Urbana"
+        - "Poblaci\xF3n Rural"
+        - "Poblaci\xF3n Costera"
+        - "Poblaci\xF3n Primermundista"
+        correctAnswerIndex: 0
 --- !u!1 &1167302133
 GameObject:
   m_ObjectHideFlags: 0
