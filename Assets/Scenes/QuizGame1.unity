@@ -9909,14 +9909,14 @@ MonoBehaviour:
         options:
         - Pasear
         - Joven
-        - Alegre
+        - Alegremente
         - "Sali\xF3"
         correctAnswerIndex: 0
       - questionText: Es un adverbio
         options:
         - Pasear
         - Joven
-        - Alegre
+        - Alegremente
         - "Sali\xF3"
         correctAnswerIndex: 2
       - questionText: 'Las dos formas de usar el lenguaje son:'
@@ -9953,6 +9953,30 @@ MonoBehaviour:
         - Wi-fi
         - Cohete
         - "Climatol\xF3gico"
+        correctAnswerIndex: 0
+      - questionText: "En un debate es el encargado de explicar las reglas, el tiempo
+          y la mediaci\xF3n de preguntas y respuestas "
+        options:
+        - Moderador
+        - Evaluador
+        - Ponente
+        - Oponente
+        correctAnswerIndex: 0
+      - questionText: En un debate es el encargado de determinar la objetividad de
+          los argumentos
+        options:
+        - Moderador
+        - Evaluador
+        - Ponente
+        - Oponente
+        correctAnswerIndex: 1
+      - questionText: "Actividad d\xF3nde participan dos personas con opiniones opuestas,
+          dialogan y discuten "
+        options:
+        - Debate
+        - "F\xE1bula"
+        - "Rese\xF1a"
+        - Cuento
         correctAnswerIndex: 0
     - name: matematicas
       preguntas:
@@ -10026,6 +10050,78 @@ MonoBehaviour:
         - 340
         - 210
         correctAnswerIndex: 0
+      - questionText: "N\xFAmeros que no son cantidades enteras, contienen de una
+          parte entera y una decimal"
+        options:
+        - Decimales
+        - Naturales
+        - Funcionales
+        - Nacionales
+        correctAnswerIndex: 0
+      - questionText: "Cu\xE1nto es el doble de 1.25?"
+        options:
+        - 2.50
+        - 2.45
+        - 0.50
+        - 1.50
+        correctAnswerIndex: 0
+      - questionText: "Son n\xFAmeros impares"
+        options:
+        - 0 y 2
+        - 4 y 6
+        - 5 y 7
+        - 8 y 4
+        correctAnswerIndex: 2
+      - questionText: "Qu\xE9 unidad de medida permite calcular la distancia y altura"
+        options:
+        - Metro
+        - Kilogramo
+        - Masa
+        - Litro
+        correctAnswerIndex: 0
+      - questionText: "Si Pepe mide 160 cent\xEDmetros, Cu\xE1ntos metros mide?"
+        options:
+        - 1.6 mts
+        - 160 mts
+        - 16 mts
+        - 2.6 mts
+        correctAnswerIndex: 0
+      - questionText: Unidad de medida de la masa que equivale a 1000 gramos
+        options:
+        - Kilogramo
+        - Metro
+        - Litro
+        - Masa
+        correctAnswerIndex: 0
+      - questionText: 'Es una magnitud que expresa la cantidad de materia presente
+          en un cuerpo '
+        options:
+        - Kilogramo
+        - Metro
+        - Litro
+        - Masa
+        correctAnswerIndex: 3
+      - questionText: Unidad de medida utilizada para obtener la magnitud de la MASA
+        options:
+        - Kilogramo
+        - Metro
+        - Litro
+        - Masa
+        correctAnswerIndex: 0
+      - questionText: Unidad de medida utilizada para obtener la magnitud de la capacidad
+        options:
+        - Kilogramo
+        - Metro
+        - Litro
+        - Masa
+        correctAnswerIndex: 2
+      - questionText: Unidad de medida utilizada para obtener la magnitud de la capacidad
+        options:
+        - Kilogramo
+        - Metro
+        - Litro
+        - Masa
+        correctAnswerIndex: 2
     - name: ciencia
       preguntas:
       - questionText: "Cu\xE1l es la regla de las 3 R\xB4s"
