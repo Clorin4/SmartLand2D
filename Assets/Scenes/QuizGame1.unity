@@ -10166,6 +10166,42 @@ MonoBehaviour:
         - Porque tienen calor
         - Por la rotacion de la tierra
         correctAnswerIndex: 0
+      - questionText: Es el exceso de masa corporal que no es saludable
+        options:
+        - Sobrepeso
+        - "Desnutrici\xF3n"
+        - Kilogramo
+        - Litro
+        correctAnswerIndex: 0
+      - questionText: Es la insuficiencia de la ingesta de alimentos
+        options:
+        - Sobrepeso
+        - "Desnutrici\xF3n"
+        - Kilogramo
+        - Litro
+        correctAnswerIndex: 1
+      - questionText: "Es el proceso mediante el cual los seres vivos toman alimentos
+          para obtener energ\xEDa"
+        options:
+        - "Respiraci\xF3n"
+        - "Nutrici\xF3n"
+        - "Reproducci\xF3n"
+        - "Respiraci\xF3n"
+        correctAnswerIndex: 1
+      - questionText: Sistema que se encarga e defender al cuerpo humano
+        options:
+        - Sistema inmunitario
+        - Sistema digestivo
+        - Sistema respiratorio
+        - Sistema nervioso
+        correctAnswerIndex: 0
+      - questionText: Son recursos naturales EXCEPTO
+        options:
+        - Dinero
+        - Aire
+        - Agua
+        - Luz solar
+        correctAnswerIndex: 0
     - name: etica
       preguntas:
       - questionText: "Campa\xF1as militares organizadas por los papas y las potencias
@@ -10211,6 +10247,35 @@ MonoBehaviour:
         - "Poblaci\xF3n Rural"
         - "Poblaci\xF3n Costera"
         - "Poblaci\xF3n Primermundista"
+        correctAnswerIndex: 0
+      - questionText: Es un transtorno por consumo de sustancias psicoactivas
+        options:
+        - "Adicci\xF3n"
+        - "Recreaci\xF3n"
+        - "Vacunaci\xF3n"
+        - "Prevenci\xF3n"
+        correctAnswerIndex: 0
+      - questionText: Son acciones para orientarse en caso de un sismo EXCEPTO
+        options:
+        - Correr y gritar
+        - No usar elevadores
+        - Alejarse de cables
+        - "Alejarse de tuber\xEDas"
+        correctAnswerIndex: 0
+      - questionText: "Pr\xE1ctica que consiste  en dar un trato desfavorable a otra
+          persona o grupo"
+        options:
+        - "Discriminaci\xF3n"
+        - Comunidad
+        - Convivencia
+        - Diversidad cultural
+        correctAnswerIndex: 0
+      - questionText: Es la necesidad humana de pertenecer a un grupo social
+        options:
+        - Pertenencia
+        - Respeto
+        - Pensamiento divergente
+        - "Pensamiento estrat\xE9gico"
         correctAnswerIndex: 0
 --- !u!1 &1167302133
 GameObject:

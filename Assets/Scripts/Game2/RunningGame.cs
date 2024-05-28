@@ -27,6 +27,7 @@ public class RunningGame : MonoBehaviour
     public TMP_InputField inputField;
     public Button submitButton;
     private string currentRandomPhrase;
+    public TextMeshProUGUI timeText;
 
     public PhraseManager phraseManager;
     PhraseData selectedPhraseData;
@@ -83,6 +84,7 @@ public class RunningGame : MonoBehaviour
 
     public void TurnOffVariables()
     {
+        timeText.text = "";
         canvasMain.SetActive(false);
         howToPlay.SetActive(true);
         WinnerP1.SetActive(false);
@@ -223,31 +225,30 @@ public class RunningGame : MonoBehaviour
 
             isTimerRunning = true;
             elapsedTime = 0f;
+            float timephrase = phraseTime;
 
             while (elapsedTime < phraseTime)
             {
                 if (!isTimerRunning) break;
 
                 elapsedTime += Time.deltaTime;
-                //Debug.Log(elapsedTime);
+                timephrase = phraseTime - elapsedTime;
+                timeText.text = timephrase.ToString("F0"); // Mostrar el tiempo restante sin decimales
+
                 yield return null;
             }
+
             isTimerRunning = false;
 
-            if (isTimerRunning)
+            if (elapsedTime >= phraseTime && !alguienGano)
             {
                 textPanel.text = "";
-                inputField.onEndEdit.AddListener(delegate { SubmitAnswer(currentRandomPhrase); });
+                Debug.Log("Tiempo agotado para el Jugador " + currentPlayer);
+                EndCurrentTurn();
             }
-            else
+            else if (!alguienGano)
             {
-                if (!alguienGano)
-                {
-                    
-                    Debug.Log("Tiempo agotado para el Jugador " + currentPlayer);
-                    EndCurrentTurn();
-                }
-                
+                inputField.onEndEdit.AddListener(delegate { SubmitAnswer(currentRandomPhrase); });
             }
         }
         else
@@ -256,8 +257,10 @@ public class RunningGame : MonoBehaviour
         }
     }
 
+
     void EndCurrentTurn()
     {
+        
         SelectInputField();
         inputField.text = "";
 
@@ -320,7 +323,6 @@ public class RunningGame : MonoBehaviour
     private void Update()
     {
         RunAnimations();
-
         if (isPlayer1Turn)
         {
             turnoText.text = "Turno:  jugador 1";
@@ -335,6 +337,7 @@ public class RunningGame : MonoBehaviour
             ColorUtility.TryParseHtmlString("#FF453B", out colorP1); // Azul en hexadecimal
             turnoText.color = colorP1;
         }
+        
     }
 
     private void RunAnimations()
