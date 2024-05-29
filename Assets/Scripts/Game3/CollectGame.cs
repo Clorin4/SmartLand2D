@@ -238,7 +238,7 @@ public class CollectGame : MonoBehaviour
         else if (P2Correct == 1 && !isTyping)
         {
             animaciones.StartLose();
-            fullText = "SEGUROO JUGADOR 2?";
+            fullText = "¿SEGUROO JUGADOR 2?";
             P1Correct = 0;
             P2Correct = 0;
         }
