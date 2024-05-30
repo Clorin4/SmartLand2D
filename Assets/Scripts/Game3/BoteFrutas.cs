@@ -119,8 +119,8 @@ public class BoteFrutas : MonoBehaviour
         isPlayer1Near = distance1 <= interactionRadius;
         isPlayer2Near = distance2 <= interactionRadius;
 
-        Debug.Log($"Player1 Near: {isPlayer1Near}, Distance: {distance1}");
-        Debug.Log($"Player2 Near: {isPlayer2Near}, Distance: {distance2}");
+        //Debug.Log($"Player1 Near: {isPlayer1Near}, Distance: {distance1}");
+        //Debug.Log($"Player2 Near: {isPlayer2Near}, Distance: {distance2}");
     }
 
     public void StartEatAnim()

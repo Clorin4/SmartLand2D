@@ -287,12 +287,13 @@ public class QuizzGame : MonoBehaviour
         else if (player1Pressed && player2Pressed)
         {
             dañoPaDos = true;
-            secondCountDownStarted = 2;
-            player1Health -= 5;
-            player2Health -= 5;
+            secondCountDownStarted = 3;
+            player1Health -= 10;
+            player2Health -= 10;
+            Reloj.SetActive(false);
             Daños();
             Debug.Log("Ambos?");
-            Reloj.SetActive(false);
+            
             // Acciones si ambos jugadores presionaron, se puede considerar un empate
         }
         else
@@ -665,6 +666,7 @@ public class QuizzGame : MonoBehaviour
 
         else if (player1Health <= 0 && player2Health <= 0)
         {
+            HeartsHUD();
             StartCoroutine(Finish());
             apuntador2.SetActive(false);
             apuntador1.SetActive(false);

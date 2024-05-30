@@ -671,7 +671,8 @@ public class CollectGame : MonoBehaviour
                     //CheckScore();
                     Debug.Log("¡El jugador 1 aún necesita recolectar más frutas!");
                 }
-                
+                P1Checking = false;
+
             }
 
             else if (P2Checking && !P1Checking)
